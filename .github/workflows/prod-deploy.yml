@@ -1,8 +1,8 @@
-name: deploy-site-staging
+name: prod-deploy
 on:
   push:
     branches:
-      - develop
+      - main
 jobs:
   build-site:
     runs-on: ubuntu-latest
@@ -42,11 +42,10 @@ jobs:
         with:
           args: build
 
-
       - name: Deploy site
         uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         with:
-          args: deploy --dir=public
+          args: deploy --dir=public --prod

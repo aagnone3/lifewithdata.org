@@ -1,0 +1,128 @@
+article_num: '12'
+date: '2020-09-02'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Efficient and Serverless PyTorch with Azure Functions'
+  image: /assets/img/mlutd12app1.png
+  imageCaption:
+    text: A mashup of the PyTorch and Azure Functions logos
+    href: https://medium.com/pytorch/efficient-serverless-deployment-of-pytorch-models-on-azure-dc9c2b6bfee7
+  excerpt: >
+    The [PyTorch group](https://medium.com/pytorch) on Medium wrote up a nice demo of serving a model's predictions over Microsoft's Azure Functions platform. While this isn't much by itself, what really impresses is an almost 10x reduction in deployment package memory footprint when using the ONNX runtime. In the serverless world, where cost comes from both execution time and memory consumption, this really takes the cake as compared to other cloud providers.
+  links:
+  - text: Article
+    href: https://medium.com/pytorch/efficient-serverless-deployment-of-pytorch-models-on-azure-dc9c2b6bfee7
+  - text: Code
+    href: https://github.com/Azure-Samples/functions-deploy-pytorch-onnx
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@PyTorch'
+- name: app2
+  category: application
+  title: 'Apple AI Chief John Giannandrea on its AI Strategy'
+  image: /assets/img/mlutd12app2.png
+  imageCaption:
+    text: An example object detection algorithm running on CoreML
+    href: https://developer.apple.com/machine-learning/models
+  excerpt: >
+    [Samuel Axon](https://arstechnica.com/author/samuelaxon/) from Ars Technica sat down with Apple's AI chief and talked AI strategy. The conversation touches on some interesting long-game approaches Apple is taking, such as on-device models vs massive cloud APIs and data privacy vs gargantuan data lakes.
+
+    What do you think about Apples focus points, and how they differ from Google and Amazon? Are there any outright winning approaches here, or does everything come down to "it depends"?
+  links:
+  - text: Article
+    href: https://arstechnica.com/gadgets/2020/08/apple-explains-how-it-uses-machine-learning-across-ios-and-soon-macos
+  - text: Apple CoreML
+    href: https://developer.apple.com/machine-learning/core-ml
+  - text: Machine Learning @ Apple
+    href: https://developer.apple.com/machine-learning
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@Apple'
+- name: app3
+  category: application
+  title: 'Uber Suggests a New Flavor of Service Oriented Architecture'
+  image: /assets/img/mlutd12app3.png
+  imageCaption:
+    text: A graph visualization of a complex microservice entity relationship
+    href: https://eng.uber.com/microservice-architecture
+  excerpt: '
+    Uber Engineering published a new blog post which details their new Domain-Oriented Microservice Architecture, with the aim of making microservice architectures more scalable. Unless you have worked on a large-scale application with a microservice architecture, you will not fully understand the pain of keeping such a beast organized as it grows.
+
+    By re-positioning the architecture’s atomic unit from a microservice to a logically-organized collection of them (a “domain”), Uber has seen their operational costs decreased by an order of magnitude.
+
+    We think of DOMA as innovative only insofar as it is a relatively novel way to leverage established design principles in large distributed systems in large organizations.  
+    '
+  links:
+  - text: Article
+    href: https://eng.uber.com/microservice-architecture
+  - text: Uber Engineering Blog
+    href: https://eng.uber.com/microservice-architecture
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@UberEng'
+- name: the1
+  category: theory
+  title: 'Salesforce Creates AI-Driven Tax Policies'
+  image: /assets/img/mlutd12the1.png
+  imageCaption:
+    text: The visualization of the AI Economist’s multi-agent environment
+    href: https://blog.einstein.ai/the-ai-economist-moonshot
+  excerpt: '
+    In this round of “AI eats the world” we have a moonshot project from Salesforce showing how multi-agent reinforcement learning can generate superior tax policy. Some of the local optima policies found here limited agents “gaming the system” while leading to widespread well-being throughout the community. Sounds pretty utopian, right? Someone tell the suits and ties in Washington about this.
+    '
+  links:
+  - text: Article
+    href: https://blog.einstein.ai/the-ai-economist-moonshot
+  - text: AI Economist Website
+    href: https://einstein.ai/the-ai-economist
+  - text: AI Economist Github
+    href: https://github.com/salesforce/ai-economist#getting-started
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@StephanZheng'
+- name: the2
+  category: theory
+  title: 'Hopfield Is All You Need'
+  image: /assets/img/mlutd12the2.png
+  imageCaption:
+    text: A flowchart of the Hopfield Network layer
+    href: https://arxiv.org/pdf/2008.02217.pdf
+  excerpt: >
+    The architecture of Hopfield Networks stems largely from 1982 via researcher [John Hopfield](https://en.wikipedia.org/wiki/John_Hopfield). These neural nets were among the early designs to model recurrences in networks, especially applied to modeling biological memory. Several researchers from a multi-institute effort have now generalized the design for continuous states and shown how its update rule is equivalent to the attention technique that is used in Transformer networks.
+
+    For a sky-high view, this is how the trend may have just become: RNN → LSTM → Transformer → Hopfield Network. Let's see what more comes of this latest progression, and how the Hopfield Network interpretation can lead to better innovation on the current state of the art.
+  links:
+  - text: Paper
+    href: https://arxiv.org/abs/2008.02217
+  - text: Hopfield Layer Code
+    href: https://github.com/ml-jku/hopfield-layers
+  - text: Paper Description Video
+    href: https://www.youtube.com/watch?v=nv6oFDp6rNQ
+  credit:
+  - type: Website
+    properties:
+      text: JKU
+      href: https://github.com/ml-jku
+- name: the3
+  category: theory
+  title: 'Stanford on How Work Will Change Post-Pandemic'
+  image: /assets/img/mlutd12the3.png
+  imageCaption:
+    text: A plot of occupations suitable for machine learning (SML) vs wage percentiles
+    href: https://hai.stanford.edu/blog/how-work-will-change-following-pandemic
+  excerpt: '
+    Stanford’s Human-Centered Artificial Intelligence (HAI) arm published a report on expected changes to job automation and remote work in the post-COVID-19 economy (whenever that is…). The report has found that, while lower-wage jobs do correlate to a higher risk of automation in the near future, that correlation is not as high and consistent as you might think. Additionally, we may be on the verge of a sharp uptick in the adoption of machine learning across and within industries, as companies look to support a more contactless-centric society. We’re one step closer to [those pods](https://matrix.fandom.com/wiki/Pod) in the Matrix…
+    '
+  links:
+  - text: Article
+    href: https://hai.stanford.edu/blog/how-work-will-change-following-pandemic
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@StanfordHAI'

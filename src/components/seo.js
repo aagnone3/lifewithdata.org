@@ -9,10 +9,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useLocale } from '../hooks/locale';
 
-function SEO({ description, lang, meta, title, image }) {
-    const { locale } = useLocale();
+function SEO({ description, meta, lang, dir, title, image }) {
     const { site } = useStaticQuery(
         graphql`
             query {
@@ -21,6 +19,7 @@ function SEO({ description, lang, meta, title, image }) {
                         title
                         description
                         author
+                        keywords
                         siteUrl
                     }
                 }
@@ -31,25 +30,21 @@ function SEO({ description, lang, meta, title, image }) {
     const metaDescription = description || site.siteMetadata.description
 
     const url = site.siteMetadata.siteUrl
-    const ogImage = `${url}${image || '/assets/img/cover.png'}`
-
-    // add rtl support - Arabic is Right to Left Language
-    // change ar with your RTL language
-    const dir = locale === 'ar' ? 'rtl' : 'ltr'
+    const ogImage = `${url}${image || '/assets/img/life-with-data-logo.png'}`
 
     return (
         <Helmet
-            htmlAttributes={{
-                // fix html lang attribute
-                lang: locale,
-                dir,
-            }}
+            htmlAttributes={{ lang, dir }}
             title={title}
             titleTemplate={`%s | ${site.siteMetadata.title}`}
             meta={[
                 {
                     name: `description`,
                     content: metaDescription,
+                },
+                {
+                    name: `keywords`,
+                    content: site.siteMetadata.keywords.join(`,`)
                 },
                 {
                     property: `og:title`,
@@ -94,6 +89,7 @@ function SEO({ description, lang, meta, title, image }) {
 
 SEO.defaultProps = {
     lang: `en`,
+    dir: `ltr`,
     meta: [],
     description: ``,
 }

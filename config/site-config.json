@@ -1,0 +1,41 @@
+{
+  "menuItems": [
+    { "name": "Home", "link": "/", "isExternalLink": false },
+    { "name": "Blog", "link": "/blog" },
+    { "name": "Newsletter", "link": "/newsletter" },
+    { "name": "Contact", "isExternalLink": true, "link": "https://us4.list-manage.com/contact-form?u=41f6f5cd8bf0ac1a669327c66&form_id=e4645af80a69ccea631c61d8d28957e8" }
+  ],
+  "rendering": {
+    "newsletter-machine-learning-up-to-date": {
+      "slugPrefix": "newsletter",
+      "template": "./src/templates/newsletter-machine-learning-up-to-date.js",
+      "addList": true
+    },
+    "blog": {
+      "slugPrefix": "blog",
+      "template": "./src/templates/blog.js",
+      "addList": true
+    },
+    "generic": {
+      "slugPrefix": "",
+      "template": "./src/templates/page.js",
+      "addList": false
+    },
+    "_default": {
+      "slugPrefix": "",
+      "template": "./src/templates/page.js",
+      "addList": false
+    }
+  },
+  "home": "Home",
+  "hello": "Life With Data",
+  "subline": "From Chaos, Information",
+  "latestPosts": "Latest posts",
+  "category": "Category", 
+  "allPosts": "All Posts",
+  "toRead": "to read",
+  "next": "Next",
+  "prev": "Prev",
+  "of": "of",
+  "button": "Button"
+}

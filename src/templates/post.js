@@ -24,10 +24,9 @@ const Post = props => {
 };
 
 export const query = graphql`
-  query Post($locale: String!, $title: String!) {
+  query Post($title: String!) {
     markdownRemark(
       frontmatter: { title: { eq: $title } }
-      fields: { locale: { eq: $locale } }
     ) {
       frontmatter {
         title

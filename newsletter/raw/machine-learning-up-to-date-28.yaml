@@ -1,0 +1,140 @@
+article_num: '28'
+date: '2020-12-23'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Building a Gigascale ML Feature Store'
+  image: /assets/img/mlutd28app1.png
+  imageCaption:
+    text: Using Redis hashes on benchmarks results in a five times improvement in CPU efficiency
+    href: https://doordash.engineering/2020/11/19/building-a-gigascale-ml-feature-store-with-redis
+  excerpt: '
+    When a company with millions of consumers such as DoorDash builds machine learning (ML) models, the amount of feature data can grow to billions of records with millions actively retrieved during model inference under low latency constraints. These challenges warrant a deeper look into selection and design of a feature store — the system responsible for storing and serving feature data. The decisions made here can prevent overrunning cost budgets, compromising runtime performance during model inference, and curbing model deployment velocity.
+
+    [...] Below, we will explain the challenges posed in the task of operating a large scale feature store. Then, we will review how we were able to quickly identify Redis as the right key-value store for this task. We will then dive into the optimizations we did on Redis to triple its capacity, while also uplifting read performance by choosing a custom serialization scheme around strings, protocol buffers, and Snappy compression algorithm.
+    '
+  links:
+  - text: Article
+    href: https://doordash.engineering/2020/11/19/building-a-gigascale-ml-feature-store-with-redis
+  - text: Protocol buffers
+    href: https://developers.google.com/protocol-buffers
+  - text: Snappy compression
+    href: https://github.com/google/snappy
+  - text: xxHash string hashing
+    href: http://cyan4973.github.io/xxHash
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DoorDashEng'
+- name: app2
+  category: application
+  title: 'Pinterest Visual Signals Infrastructure: Evolution from Lambda to Kappa Architecture'
+  image: /assets/img/mlutd28app2.png
+  imageCaption:
+    text: The stream-focused "Kappa Architecture" adopted
+    href: https://medium.com/pinterest-engineering/pinterest-visual-signals-infrastructure-evolution-from-lambda-to-kappa-architecture-f8f58b127d98
+  excerpt: '
+    With the growing need for machine learning signals from Pinterest’s huge visual dataset, we decided to take a closer look at our infrastructure that produces and serves these signals. A few parameters we were particularly interested in were signal availability, infra complexity and cost optimization, tech integration, developer velocity, and monitoring. In this post, we will describe our journey from a Lambda architecture to the new real-time signals infrastructure inspired by Kappa architecture.
+    '
+  links:
+  - text: Article
+    href: https://medium.com/pinterest-engineering/pinterest-visual-signals-infrastructure-evolution-from-lambda-to-kappa-architecture-f8f58b127d98
+  - text: Example Lambda architecture
+    href: https://hazelcast.com/glossary/kappa-architecture
+  - text: Example Kappa architecture
+    href: https://milinda.pathirage.org/kappa-architecture.com
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@PinterestEng'
+- name: app3
+  category: application
+  title: 'Managing Uber’s Data Workflows at Scale'
+  image: /assets/img/mlutd28app3.png
+  imageCaption:
+    text: The distributed "Piper" architecture designed by Uber
+    href: https://eng.uber.com/managing-data-workflows-at-scale
+  excerpt: '
+    [...] Making this data actionable involves ingestion, transformation, dispersal, and orchestration so that it can be applied widely across areas such as traditional business intelligence, machine learning, model training, visualization, and reporting. However, during Uber’s early years of rapid growth, we onboarded a broad range of data workflow systems, with users having to choose from several overlapping tools for each use case. While this large toolbox allowed for agile and responsive growth, it proved difficult to manage and maintain, requiring engineers to learn duplicative data workflow systems as they took on different projects. We needed a central tool that could author, manage, schedule, and deploy data workflows.
+
+    Leveraging a variety of previously deployed tools at Uber, including an Airflow-based platform, we began developing a system in line with Uber’s scale. This work led us to develop Piper, Uber’s centralized workflow management system, which has allowed us to democratize data workflows at Uber and enable everyone from city operations teams to machine learning engineers to carry out their work faster and more efficiently.
+    '
+  links:
+  - text: Article
+    href: https://eng.uber.com/managing-data-workflows-at-scale
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@UberEng'
+- name: the1
+  category: theory
+  title: 'The Far-Reaching Impact of Dr. Timnit Gebru'
+  image: /assets/img/mlutd28the1.png
+  imageCaption:
+    text: An image from one of Google's sample Model Cards, for a facial recognition model
+    href: https://thegradient.pub/the-far-reaching-impacts-of-timnit-gebru
+  excerpt: '
+    [...]Her impact goes far beyond her own research. She is one of the founders of the ACM Conference on Fairness, Accountability, and Transparency (FAccT), one of the most prestigious and well-known conferences related to machine learning ethics. As co-founder of Black In AI, she helped increase the number of Black attendees at NeurIPS from just 6 in 2016 to 500 in 2017, a nearly 100-fold increase in just one year. After more than half of Black in AI speakers could not get visas to Canada for NeurIPS 2018, she successfully advocated and organized to have ICLR 2020 held in Ethiopia, which would have been one of the first major AI conferences to be held on the African continent (it had to switch to remote due to covid).
+
+    While Gebru was already well-known by academics working on computer vision, AI ethics, and fairness, a much broader audience has learned her name in the past week after Google fired her from her role as a manager of their AI ethics research team, a move covered by outlets including BBC, NBC, Guardian, and New York Times. As of the time of this post, 2,278 Googlers and 3,114 academic, industry, and civil society supporters have signed a letter protesting Google’s actions and supporting Gebru. While her termination has sparked crucial discussions regarding industry censorship of unfavorable research, racial discrimination in tech, corporate diversity efforts, and the failings of our current AI ethics framing, here I will focus primarily on Gebru’s research and contributions to machine learning.
+    '
+  links:
+  - text: Article
+    href: https://thegradient.pub/the-far-reaching-impacts-of-timnit-gebru
+  - text: Black in AI
+    href: https://blackinai2020.vercel.app
+  - text: FAccT conference
+    href: https://facctconference.org
+  - text: GenderShades study
+    href: http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf
+  - text: Letter in protest of Google's actions
+    href: https://googlewalkout.medium.com/standing-with-dr-timnit-gebru-isupporttimnit-believeblackwomen-6dadc300d382
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@TheGradientPub'
+- name: the2
+  category: theory
+  title: 'AlphaFold: a solution to a 50-year-old grand challenge in biology'
+  image: /assets/img/mlutd28the2.png
+  imageCaption:
+    text: The main NN model architecture for AlphaFold
+    href: https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology
+  excerpt: '
+    Proteins are essential to life, supporting practically all its functions. They are large complex molecules, made up of chains of amino acids, and what a protein does largely depends on its unique 3D structure. Figuring out what shapes proteins fold into is known as the “protein folding problem”, and has stood as a grand challenge in biology for the past 50 years. In a major scientific advance, the latest version of our AI system AlphaFold has been recognized as a solution to this grand challenge by the organizers of the biennial Critical Assessment of protein Structure Prediction (CASP). This breakthrough demonstrates the impact AI can have on scientific discovery and its potential to dramatically accelerate progress in some of the most fundamental fields that explain and shape our world.
+    '
+  links:
+  - text: Article
+    href: https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology
+  - text: Protein Folding
+    href: https://en.wikipedia.org/wiki/Protein_folding
+  - text: AlphaFold
+    href: https://deepmind.com/research/case-studies/alphafold
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DeepMind'
+- name: the3
+  category: theory
+  title: 'Research at Microsoft 2020: Addressing the present while looking to the future'
+  image: /assets/img/mlutd28the3.png
+  imageCaption:
+    text: Microsoft's graphic used in the article
+    href: https://www.microsoft.com/en-us/research/blog/research-at-microsoft-2020-addressing-the-present-while-looking-to-the-future
+  excerpt: '
+    Microsoft researchers pursue the big questions about what the world will be like in the future and the role technology will play. Not only do they take on the responsibility of exploring the long-term vision of their research, but they must also be ready to react to the immediate needs of the present. This year in particular, they were asked to use their roles as futurists to address pressing societal challenges.
+
+    In early 2020, as countries began responding to COVID-19 with stay-at-home orders and business operations moved from offices into homes, researchers sprang into action to identify ways their skills and projects could help while also making personal and professional adjustments of their own. In some cases, they pivoted to directly address the pandemic. A team from Microsoft Research Asia developed the COVID Insights website to promote scientific analysis and understanding of the disease, while the Socially Intelligent Meetings program expanded its work in telepresence technologies to include the Meetings During COVID-19 project. From responses provided by employee volunteers, these researchers are piecing together the effects of taking meetings almost entirely via screens.
+    '
+  links:
+  - text: Article
+    href: https://www.microsoft.com/en-us/research/blog/research-at-microsoft-2020-addressing-the-present-while-looking-to-the-future
+  - text: The New Future of Work symposium
+    href: https://www.microsoft.com/en-us/research/event/new-future-of-work
+  - text: Microsoft Premonition
+    href: https://www.microsoft.com/en-us/research/project/project-premonition
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@MSFTResearch'

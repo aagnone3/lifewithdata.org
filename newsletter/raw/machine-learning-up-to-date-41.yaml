@@ -1,0 +1,164 @@
+article_num: '41'
+date: '2021-03-24'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Announcing the 2021 AI Index Report'
+  header: announcing-the-2021-ai-index-report
+  image: /assets/img/mlutd41app1.png
+  imageCaption:
+    text: ImageNet training costs over time
+    href: https://www.notion.so/beebspace/ML-UTD-41-0a91b6681b1649c6ae939c7fbe9acc7e#7dd10fea614042619370572b440480c2
+  excerpt: '
+    This year we significantly expanded the amount of data available in the report, worked with a broader set of external organizations to calibrate our data, and deepened our connections with Stanford HAI.
+
+    The 2021 report also shows the effects of COVID-19 on AI development from multiple perspectives. The Technical Performance chapter discusses how an AI startup used machine-learning-based techniques to accelerate COVID-related drug discovery during the pandemic, and our Economy chapter suggests that AI hiring and private investment were not significantly adversely influenced by the pandemic, as both grew during 2020. If anything, COVID-19 may have led to a higher number of people participating in AI research conferences, as the pandemic forced conferences to shift to virtual formats, which in turn led to significant spikes in attendance.
+
+    [... keep reading](https://hai.stanford.edu/research/ai-index-2021)
+    '
+  links:
+  - text: Article
+    href: https://www.notion.so/beebspace/ML-UTD-41-0a91b6681b1649c6ae939c7fbe9acc7e#b5b2ccb576a34e0daf6a519f1c6df237
+  - text: Full Report
+    href: https://aiindex.stanford.edu/wp-content/uploads/2021/03/2021-AI-Index-Report_Master.pdf
+  - text: Report's Public Data
+    href: https://drive.google.com/drive/folders/1YY9rj8bGSJDLgIq09FwmF2y1k_FazJUm?usp=sharing)
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@indexingai'
+- name: app2
+  category: application
+  title: 'Reverse ETL — A Primer'
+  header: reverse-etl--a-primer
+  image: /assets/img/mlutd41app2.png
+  imageCaption:
+    text: ''
+    href: https://medium.com/memory-leak/reverse-etl-a-primer-4e6694dcc7fb
+  excerpt: '
+    Data infrastructure has gone through an incredible evolution over the past three years. We have moved from Extract, Transform, Load (ETL) to ELT, where raw data is copied from the source system loaded into a data warehouse or data lake and then transformed. Now teams are adopting yet another new approach, called “reverse ETL,” the process of moving data from a data warehouse into third party systems to make data operational. The emergence of reverse ETL solutions is a useful component of the stack to get better leverage out of data.
+
+    As teams rearchitect from ETL to ELT, the data warehouse becomes the single source of truth for data, including customer data that can be spread across different systems. Solutions that have enabled this new architecture include Fivetran and Airbyte for EL, DBT for T, and Snowflake and Redshift for the data warehouse. Traditionally data stored in data warehouses were used for analytical workloads and business intelligence applications like Looker and Superset. Data teams are now recognizing that this data can be further utilized for operational analytics, which “drives action by automatically delivering real-time data to the exact place it’ll be most useful, no matter where that is in your organization.”
+
+    [... keep reading](https://medium.com/memory-leak/reverse-etl-a-primer-4e6694dcc7fb)
+    '
+  links:
+  - text: Article
+    href: https://medium.com/memory-leak/reverse-etl-a-primer-4e6694dcc7fb
+  - text: Superset
+    href: http://preset.io/
+  - text: DBT
+    href: https://www.getdbt.com/
+  - text: Airbyte
+    href: https://airbyte.io/
+  credit:
+  - type: Medium
+    properties:
+      handle: '@astasia'
+- name: app3
+  category: application
+  title: 'Launching the Facebook Map'
+  header: launching-the-facebook-map
+  image: /assets/img/mlutd41app3.png
+  imageCaption:
+    text: ''
+    href: https://hi.stamen.com/launching-the-facebook-map-8d028c4f0e0e
+  excerpt: '
+    At Stamen, we specialize in cartography and data visualization, helping our clients to communicate with complex data. In particular, we’ve spent almost two decades designing and building interactive web maps using open source tools, such as our popular Watercolor map style using OpenStreetMap data. For the past year and a half, it’s been our privilege to work on one of our largest and most ambitious undertakings ever: collaborating closely with a team of Facebook engineers, designers, and data experts to roll out a global, multi-scale base map for all of Facebook’s billions of users. In late 2020, this map went live, and we’re extremely proud of the results.
+
+    [... keep reading](https://hi.stamen.com/launching-the-facebook-map-8d028c4f0e0e)
+    '
+  links:
+  - text: Article
+    href: https://hi.stamen.com/launching-the-facebook-map-8d028c4f0e0e
+  - text: Stamen
+    href: https://stamen.com/
+  - text: OpenStreetMap
+    href: https://wiki.openstreetmap.org/
+  credit:
+  - type: Medium
+    properties:
+      handle: '@jonahadkins'
+- name: the1
+  category: theory
+  title: 'Introducing Model Search: An Open Source Platform for Finding Optimal ML Models'
+  header: introducing-model-search-an-open-source-platform-for-finding-optimal-ml-models
+  image: /assets/img/mlutd41the1.png
+  imageCaption:
+    text: ''
+    href: https://ai.googleblog.com/2021/02/introducing-model-search-open-source.html
+  excerpt: >
+    The success of a neural network (NN) often depends on how well it can generalize to various tasks. However, designing NNs that can generalize well is challenging because the research community's understanding of how a neural network generalizes is currently somewhat limited: What does the appropriate neural network look like for a given problem? How deep should it be? Which types of layers should be used? Would LSTMs be enough or would Transformer layers be better? Or maybe a combination of the two? Would ensembling or distillation boost performance? These tricky questions are made even more challenging when considering machine learning (ML) domains where there may exist better intuition and deeper understanding than others.
+
+    [...] To overcome these shortcomings and to extend access to AutoML solutions to the broader research community, we are excited to announce the open source release of Model Search, a platform that helps researchers develop the best ML models, efficiently and automatically. Instead of focusing on a specific domain, Model Search is domain agnostic, flexible and is capable of finding the appropriate architecture that best fits a given dataset and problem, while minimizing coding time, effort and compute resources. It is built on Tensorflow, and can run either on a single machine or in a distributed setting.
+
+    [... keep reading](https://ai.googleblog.com/2021/02/introducing-model-search-open-source.html)
+  links:
+  - text: Article
+    href: https://ai.googleblog.com/2021/02/introducing-model-search-open-source.html
+  - text: Github google/model_search
+    href: http://github.com/google/model_search
+  - text: Beam Search
+    href: https://en.wikipedia.org/wiki/Beam_search
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@googleai'
+  - type: Twitter
+    properties:
+      handle: '@itspviolette'
+- name: the2
+  category: theory
+  title: 'Towards Causal Representation Learning'
+  header: towards-causal-representation-learning
+  image: /assets/img/mlutd41the2.png
+  imageCaption:
+    text: ''
+    href: https://arxiv.org/pdf/2102.11107.pdf
+  excerpt: '
+    The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the opposite direction: we note that most work in causality starts from the premise that the causal variables are given. A central problem for AI and causality is, thus, causal representation learning, the discovery of high-level causal variables from low-level observations. Finally, we delineate some implications of causality for machine learning and propose key research areas at the intersection of both communities.
+
+    [... keep reading](https://arxiv.org/abs/2102.11107)
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/abs/2102.11107
+  - text: Causal Discovery from Heterogeneous/Nonstationary Data
+    href: https://jmlr.org/papers/v21/19-232.html
+  - text: Causal Discovery with Continuous Additive Noise Models
+    href: https://jmlr.org/papers/v15/peters14a.html
+  - text: Causal Learning — Bernhard Schölkopf
+    href: https://vimeo.com/238274659
+  credit:
+  - type: Text
+    properties:
+      text: Paper authors
+- name: the3
+  category: theory
+  title: 'We’ll never have true AI without first understanding the brain'
+  header: we-ll-never-have-true-ai-without-first-understanding-the-brain
+  image: /assets/img/mlutd41the3.png
+  imageCaption:
+    text: Patrick T. Powers
+    href: https://www.technologyreview.com/2021/03/03/1020247/artificial-intelligence-brain-neuroscience-jeff-hawkins/
+  excerpt: '
+    The search for AI has always been about trying to build machines that think—at least in some sense. But the question of how alike artificial and biological intelligence should be has divided opinion for decades. Early efforts to build AI involved decision-making processes and information storage systems that were loosely inspired by the way humans seemed to think. And today’s deep neural networks are loosely inspired by the way interconnected neurons fire in the brain. But loose inspiration is typically as far as it goes.
+
+    Most people in AI don’t care too much about the details, says Jeff Hawkins, a neuroscientist and tech entrepreneur. He wants to change that. Hawkins has straddled the two worlds of neuroscience and AI for nearly 40 years. In 1986, after a few years as a software engineer at Intel, he turned up at the University of California, Berkeley, to start a PhD in neuroscience, hoping to figure out how intelligence worked. But his ambition hit a wall when he was told there was nobody there to help him with such a big-picture project. Frustrated, he swapped Berkeley for Silicon Valley and in 1992 founded Palm Computing, which developed the PalmPilot—a precursor to today’s smartphones.
+
+    [... keep reading](https://www.technologyreview.com/2021/03/03/1020247/artificial-intelligence-brain-neuroscience-jeff-hawkins/)
+    '
+  links:
+  - text: Article
+    href: https://www.technologyreview.com/2021/03/03/1020247/artificial-intelligence-brain-neuroscience-jeff-hawkins
+  - text: Redwood Center for Theoretical Neuroscience
+    href: https://en.wikipedia.org/wiki/Redwood_Neuroscience_Institute
+  - text: Numenta
+    href: https://numenta.com/
+  - text: 'A Thousand Brains: A New Theory of Intelligence'
+    href: https://www.basicbooks.com/titles/jeff-hawkins/a-thousand-brains/9781541675810
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@techreview'

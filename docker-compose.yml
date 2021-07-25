@@ -1,0 +1,9 @@
+version: "3" 
+services: 
+    client: 
+        build:
+            context: .
+        volumes:
+            - ./:/app
+        ports:
+            - "3000:8000"

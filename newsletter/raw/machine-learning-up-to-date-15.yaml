@@ -1,0 +1,118 @@
+article_num: '15'
+date: '2020-09-23'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Face-mask Recognition Has Arrived — For Better or Worse'
+  image: /assets/img/mlutd15app1.png
+  imageCaption:
+    text: An example mask recognition application
+    href: https://github.com/chandrikadeb7/Face-Mask-Detection
+  excerpt: '
+    Public shaming over not wearing a face mask started almost as soon as the COVID-19 pandemic itself. In February, some provinces and municipalities in China made it mandatory to wear masks when in public. News reports soon followed of residents and police chastising the non-compliant, a trend that’s now seen globally.  
+    '
+  links:
+  - text: Article
+    href: https://www.nationalgeographic.com/science/2020/09/face-mask-recognition-has-arrived-for-coronavirus-better-or-worse-cvd
+  - text: Example facemask recognition application
+    href: https://github.com/chandrikadeb7/Face-Mask-Detection
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@NatGeo'
+- name: app2
+  category: application
+  title: 'Apache Arrow: the Hidden Champion of Data Analytics'
+  image: /assets/img/mlutd15app2.png
+  imageCaption:
+    text: A diagram of how Arrow intermediates popular data libraries and formats
+    href: https://maximilianmichels.com/2020/apache-arrow-the-hidden-champion
+  excerpt: '
+    In today’s open-source software stack you can find many indispensable dependencies in the form of software libraries. They are logging frameworks, testing frameworks, HTTP libraries, or code style checkers. But it doesn’t happen often that a new library emerges which changes the way we think about computing.  
+    '
+  links:
+  - text: Article
+    href: https://maximilianmichels.com/2020/apache-arrow-the-hidden-champion
+  - text: Apache Arrow
+    href: https://arrow.apache.org
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@stadtlegende'
+- name: app3
+  category: application
+  title: 'Google Claims its AI is Better at Recognizing Breaking News and Misinformation'
+  image: /assets/img/mlutd15app3.jpg
+  imageCaption:
+    text: 'Image Credit: Reuters'
+    href: https://venturebeat.com/2020/09/10/google-claims-its-ai-is-becoming-better-at-recognizing-breaking-news-and-misinformation
+  excerpt: '
+    Google [says](https://blog.google/products/search/our-latest-investments-information-quality-search-and-news) it’s using AI and machine learning techniques to more quickly detect breaking news around crises like natural disasters. That’s according to Pandu Nayak, vice president of search at Google, who revealed that the company’s systems now take minutes to recognize breaking news as opposed to 40 minutes a few years ago.  
+    '
+  links:
+  - text: Article
+    href: https://venturebeat.com/2020/09/10/google-claims-its-ai-is-becoming-better-at-recognizing-breaking-news-and-misinformation
+  - text: Google's Blog Post
+    href: https://blog.google/products/search/our-latest-investments-information-quality-search-and-news
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@Kyle_L_Wiggers'
+- name: the1
+  category: theory
+  title: 'The Generative Age'
+  image: /assets/img/mlutd15the1.png
+  imageCaption:
+    text: An example text completion using GPT-3
+    href: https://arr.am/2020/09/15/the-generative-age
+  excerpt: '
+    AI can already create photorealistic [faces](https://thispersondoesnotexist.com/), [objects](https://www.cc.gatech.edu/~hays/7476/projects/Cusuh/), and [landscapes.](https://techcrunch.com/2019/03/18/nvidia-ai-turns-sketches-into-photorealistic-landscapes-in-seconds/) [Video](https://venturebeat.com/2019/07/19/deepminds-ai-learns-to-generate-realistic-videos-by-watching-youtube-clips/) [isn’t](https://venturebeat.com/2019/06/07/googles-ai-generates-videos-with-unprecedented-complexity/) far behind. We [can](https://www.descript.com/overdub?lyrebird=true) [already](https://www.youtube.com/watch?v=zwYiDraKtSA&feature=emb_logo) [recreate](https://clyp.it/2pb4bp05) [any](https://clyp.it/2pb4bp05) [voice](https://twitter.com/gwern/status/1086010478135050240). GPT-3 can already write [dialogue](https://arr.am/2020/08/11/ai-fan-fiction-or-barry-by-terry-pratchett-gpt-3/) and movie plots almost indistinguishable from ones written by humans. Even [generated music](https://openai.com/blog/jukebox/) is making fast progress.
+
+    It’s only a matter of time until we’re generating entire movies and shows. It’s startling to realize that Hollywood movies that cost $300M to produce today might be generated for a few cents within our lifetimes.  
+    '
+  links:
+  - text: Article
+    href: https://arr.am/2020/09/15/the-generative-age
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@arram'
+- name: the2
+  category: theory
+  title: 'Looking Inside the Black Box — How to Trick a Neural Network'
+  image: /assets/img/mlutd15the2.png
+  imageCaption:
+    text: Image courtesy of William Falcon
+    href: https://towardsdatascience.com/peering-inside-the-blackbox-how-to-trick-a-neural-network-757c90a88a73
+  excerpt: '
+    Neural networks get a bad reputation for being black boxes. And while it certainly takes creativity to understand their decision making, they are really not as opaque as people would have you believe.
+
+    In this tutorial, I’ll show you how to use backpropagation to change the input as to classify it as whatever you would like.  
+    '
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/peering-inside-the-blackbox-how-to-trick-a-neural-network-757c90a88a73
+  - text: Colab Notebook
+    href: https://colab.research.google.com/drive/16HVAJHdCkyj7W43Q3ZChnxZ7DOwx6K5i?usp=sharing
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@_willfalcon'
+- name: the3
+  category: theory
+  title: 'Aligning AI With Shared Human Values'
+  image: /assets/img/mlutd15the3.png
+  imageCaption:
+    text: Predictions and confidences are from a BERT-base model
+    href: https://arxiv.org/pdf/2008.02275.pdf
+  excerpt: '
+    We show how to assess a language model’s knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete understanding of basic ethical knowledge. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.
+    '
+  links:
+  - text: Paper
+    href: https://arxiv.org/pdf/2008.02275.pdf
+  credit:
+  - type: Text
+    properties:
+      text: Paper Authors

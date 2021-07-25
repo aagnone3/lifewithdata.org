@@ -1,26 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import useTranslations from '../useTranslations';
 
 import * as S from './styled';
 
 const PostItem = ({
   slug,
-  background,
-  category,
   date,
   timeToRead,
   title,
   description,
   image,
 }) => {
-  const { toRead } = useTranslations();
-
   const { listImages } = useStaticQuery(
     graphql`
       query {
-        listImages: allFile {
+        listImages: allFile(filter: {ext: { in: [".png", ".jpg"]}}) {
           edges {
             node {
               childImageSharp {
@@ -65,11 +60,8 @@ const PostItem = ({
         )}
 
         <S.PostItemInfo>
-          <S.PostItemTag background={background}>
-            {category}
-          </S.PostItemTag>
           <S.PostItemDate>
-            {date} • {timeToRead} min {toRead}
+            {date} • {timeToRead} min to read
           </S.PostItemDate>
           <S.PostItemTitle>{title}</S.PostItemTitle>
           <S.PostItemDescription>{description}</S.PostItemDescription>
@@ -81,8 +73,6 @@ const PostItem = ({
 
 PostItem.propTypes = {
   slug: PropTypes.string.isRequired,
-  background: PropTypes.string,
-  category: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   timeToRead: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,

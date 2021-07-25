@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import propTypes from 'prop-types';
-import LocalizedLink from '../LocalizedLink';
-import useTranslations from '../useTranslations';
+import getConfig from '../getConfig';
 
 import * as S from './styled';
 
@@ -13,13 +13,13 @@ const Pagination = ({
   prevPage,
   nextPage,
 }) => {
-  const { next, prev, of } = useTranslations();
+  const { next, prev, of } = getConfig();
 
   return (
     <S.PaginationWrapper>
       <li>
         {!isFirst && (
-          <LocalizedLink to={prevPage}>← {prev}</LocalizedLink>
+          <Link to={prevPage}>← {prev}</Link>
         )}
       </li>
       <p>
@@ -27,7 +27,7 @@ const Pagination = ({
       </p>
       <li>
         {!isLast && (
-          <LocalizedLink to={nextPage}>{next} →</LocalizedLink>
+          <Link to={nextPage}>{next} →</Link>
         )}
       </li>
     </S.PaginationWrapper>

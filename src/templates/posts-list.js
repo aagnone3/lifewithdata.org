@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PostItem from '../components/PostItem';
 import TitlePage from '../components/TitlePage';
+import EmailSignupCTA from '../components/EmailSignupCTA';
 import SEO from '../components/seo';
 
 import Pagination from '../components/Pagination';
@@ -24,13 +25,13 @@ const Blog = props => {
       <SEO title="Blog" />
       <TitlePage text="Blog" />
 
+      <EmailSignupCTA />
+
       <S.ListWrapper>
         {postList.map(
           ({
             node: {
               frontmatter: {
-                background,
-                category,
                 date,
                 description,
                 title,
@@ -42,8 +43,6 @@ const Blog = props => {
           }) => (
             <PostItem
               slug={`/blog/${slug}`}
-              background={background}
-              category={category}
               date={date}
               timeToRead={timeToRead}
               title={title}
@@ -68,11 +67,10 @@ const Blog = props => {
 };
 
 export const query = graphql`
-  query PostsList($locale: String!, $dateFormat: String!, $skip: Int!, $limit: Int!) {
+  query PostsList($dateFormat: String!, $skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: {fields: frontmatter___date, order: DESC}, 
       filter: { 
-        fields: { locale: { eq: $locale } } 
         fileAbsolutePath: {regex: "/(blog)\/.*\\.md$/"}
       }
       limit: $limit
@@ -83,15 +81,12 @@ export const query = graphql`
           frontmatter {
             title
             description
-            category
-            background
             image
             date(formatString: $dateFormat)
 
           }
           timeToRead
           fields {
-            locale
             slug
           }
         }

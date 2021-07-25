@@ -1,0 +1,127 @@
+article_num: '14'
+date: '2020-09-16'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Nvidia Acquires ARM to Bring AI Down From the Cloud'
+  image: /assets/img/mlutd14app1.png
+  imageCaption:
+    text: Photo by Anton Novoderezhkin\\TASS via Getty Images
+    href: ''
+  excerpt: '
+    Nvidia’s [$40 billion acquisition](https://www.theverge.com/2020/9/13/21435507/nvidia-acquiring-arm-40-billion-chips-ai-deal) of Arm is a hugely significant deal for the tech world, with implications that will take years to unravel spanning many areas of the sector. But if you listened to the press babble coming from the two companies over the last 24 hours, you’d think there was only one factor driving the purchase: artificial intelligence.
+    '
+  links:
+  - text: Article
+    href: https://www.theverge.com/2020/9/14/21435890/nvidia-arm-acquisition-40-billion-ai-cloud-edge-why
+  - text: null
+    href: null
+  - text: null
+    href: null
+  - text: null
+    href: null
+  credit:
+  - type: Website
+    properties:
+      text: James Vincent
+      href: https://www.theverge.com/authors/james-vincent
+- name: app2
+  category: application
+  title: 'Transformers are Graph Neural Networks'
+  image: /assets/img/mlutd14app2.png
+  imageCaption:
+    text: A conveyance that sentences are just fully-connected word graphs
+    href: https://thegradient.pub/transformers-are-graph-neural-networks
+  excerpt: >
+    While Graph Neural Networks are used in recommendation systems at [Pinterest](https://medium.com/pinterest-engineering/pinsage-a-new-graph-convolutional-neural-network-for-web-scale-recommender-systems-88795a107f48), [Alibaba](https://arxiv.org/abs/1902.08730) and [Twitter](https://blog.twitter.com/en_us/topics/company/2019/Twitter-acquires-Fabula-AI.html), a more subtle success story is the [**Transformer architecture**](https://arxiv.org/abs/1706.03762), which has [taken](https://openai.com/blog/better-language-models/) [the](https://www.blog.google/products/search/search-language-understanding-bert/) [NLP](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) [world](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) [by](https://blog.einstein.ai/introducing-a-conditional-transformer-language-model-for-controllable-generation/) [storm](https://nv-adlr.github.io/MegatronLM). Through this post, I want to establish a link between [Graph Neural Networks (GNNs)](https://graphdeeplearning.github.io/project/spatial-convnets/) and Transformers. I'll talk about the intuitions behind model architectures in the NLP and GNN communities, make connections using equations and figures, and discuss how we can work together to drive future progress.
+  links:
+  - text: Article
+    href: https://thegradient.pub/transformers-are-graph-neural-networks
+  - text: thegradient.pub
+    href: https://thegradient.pub/
+  - text: 'Jay Alammar: The Illustrated Transformer'
+    href: http://jalammar.github.io/illustrated-transformer
+  - text: 'Arthur Szlam: Connections between GNNs and Transformers'
+    href: https://ipam.wistia.com/medias/1zgl4lq6nh
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@gradientpub'
+- name: app3
+  category: application
+  title: 'Traffic Prediction with Advanced Graph Neural Networks'
+  image: /assets/img/mlutd14app3.png
+  imageCaption:
+    text: A visualization from roads to graphs to GNN structure
+    href: https://deepmind.com/blog/article/traffic-prediction-with-advanced-graph-neural-networks
+  excerpt: '
+    People rely on Google Maps for accurate traffic predictions and estimated times of arrival (ETAs). These are critical tools that are especially useful when you need to be routed around a traffic jam, if you need to notify friends and family that you’re running late, or if you need to leave in time to attend an important meeting. These features are also useful for businesses such as rideshare companies, which use Google Maps Platform to power their services with information about pickup and dropoff times, along with estimated prices based on trip duration. 
+
+    [Researchers at DeepMind](https://deepmind.com/about/deepmind-for-google) have partnered with the Google Maps team to improve the accuracy of real time ETAs by up to 50% in places like Berlin, Jakarta, São Paulo, Sydney, Tokyo, and Washington D.C. by using advanced machine learning techniques including Graph Neural Networks \[…\]
+    '
+  links:
+  - text: Article
+    href: https://deepmind.com/blog/article/traffic-prediction-with-advanced-graph-neural-networks
+  - text: The Deepmind-for-Google team
+    href: https://deepmind.com/about/deepmind-for-google
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DeepMind'
+- name: the1
+  category: theory
+  title: 'Multi-armed Bandits & the Stitch Fix Experimentation Platform'
+  image: /assets/img/mlutd14the1.png
+  imageCaption:
+    text: A block diagram of StitchFix’s experimentation platform
+    href: https://multithreaded.stitchfix.com/blog/2020/08/05/bandits
+  excerpt: '
+    [Multi-armed bandits](https://multithreaded.stitchfix.com/blog/2018/11/08/bandits/) have become a popular alternative to traditional A/B testing for online experimentation at Stitch Fix. We’ve recently decided to extend our experimentation platform to include multi-armed bandits as a first-class feature. This post gives an overview of our experimentation platform architecture, explains some of the theory behind multi-armed bandits, and finally shows how we incorporate them into our platform.
+    '
+  links:
+  - text: Article
+    href: https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@stitchfix_algo'
+- name: the2
+  category: theory
+  title: 'Knowledge Sharing'
+  image: /assets/img/mlutd14the2.png
+  imageCaption:
+    text: A knowledge graph
+    href: https://www.google.com/url?cd=vfe&psig=AOvVaw1aQ4PBS7wAipUS-AkFWa5_&sa=i&source=images&url=https%3A%2F%2Fdatalanguage.com%2Fknowledge-graph-engineering&ust=1600364190692000&ved=0CAIQjRxqFwoTCMi6vaub7usCFQAAAAAdAAAAABAQ
+  excerpt: '
+    Because I’m a nerd, I end up frequently talking with people about what the biggest opportunity in the data space is. While there are tons of people working on the next [git-for-data](https://locallyoptimistic.com/post/git-for-data-not-a-silver-bullet/) and different flavors of [data catalogs](https://locallyoptimistic.com/post/data_dictionaries/) the problem that I actually feel is most pressing but that very few people seem to be working on is a consistent means of publishing, reproducing, and iterating on **_knowledge_** within an organization.
+    '
+  links:
+  - text: Article
+    href: https://kaminsky.rocks/2020/09/knowledge-sharing
+  - text: null
+    href: null
+  credit:
+  - type: Website
+    properties:
+      text: kaminsky.rocks
+      href: https://kaminsky.rocks
+- name: the3
+  category: theory
+  title: 'Andriy Burkov Releases the Machine Learning Engineering Book'
+  image: /assets/img/mlutd14the3.png
+  imageCaption:
+    text: The cover of the Machine Learning Engineering Book
+    href: http://www.mlebook.com
+  excerpt: '
+    Andriy Burkov, the author of the fantastic Hundred Page Machine Learning Book, has released his newest gem: The Machine Learning Engineering book! I’m already well into this one, and I like it even more than the ML book. This book is again distributed on the generous read-then-pay basis, so start reading!
+    '
+  links:
+  - text: The Machine Learning Engineering Book
+    href: http://www.mlebook.com
+  - text: The Hundred-Page Machine Learning Book
+    href: http://themlbook.com
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@burkov'

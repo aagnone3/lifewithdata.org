@@ -20,9 +20,14 @@ export const Content = styled.section`
     `}
   }
 
+  a.jump {
+    text-decoration: none;
+    text-align: right;
+  }
+
   a {
     color: var(--link-color);
-    text-decoration: none;
+    text-decoration: underline;
     transition: 0.3s;
 
     &:hover {
@@ -79,19 +84,13 @@ export const Content = styled.section`
   }
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 4rem;
     color: black;
   }
 
   h2 {
     font-size: 2.4rem;
     color: black;
-  }
-
-  h1,
-  h2 {
-    padding-bottom: var(--space);
-    border-bottom: 1px solid var(--border-light);
   }
 
   h3 {
@@ -111,6 +110,12 @@ export const Content = styled.section`
     font-size: 1.4rem;
   }
 
+  figcaption {
+    text-align: center;
+    margin-top: 1rem;
+    /* margin: auto; */
+  }
+
   p,
   blockquote,
   ul,
@@ -125,8 +130,8 @@ export const Content = styled.section`
   hr {
     height: 0.25em;
     padding: 0;
-    margin: 24px 0;
-    background-color: var(--bg-light);
+    margin: 4rem 0;
+    background-color: black;
     border: 0;
   }
 
@@ -236,7 +241,8 @@ export const Content = styled.section`
 
   blockquote {
     border-left: 4px solid #dddddd;
-    padding: 0 15px;
+    padding: 1rem 15px;
+    margin-bottom: 4rem;
     color: #777777;
 
     &:first-child {

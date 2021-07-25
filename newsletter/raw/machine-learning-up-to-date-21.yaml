@@ -1,0 +1,115 @@
+article_num: '21'
+date: '2020-11-04'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Resilience and Vibrancy: The 2020 Data & AI Landscape'
+  image: /assets/img/mlutd21app1.png
+  imageCaption:
+    text: Major companies in the 2020 DSML landscape
+    href: https://lh4.googleusercontent.com/4vGU4cvXP-0DHS5fOZnc8kqiLH6MW3VKO9bJ9d4HzbLeg5y6thLm3QQFtFW-siuV2uOwGKMVJRs_2KZDf5JsbEz1KXjU70y1nvB2WzEtfUdTyrJc1nyHkRsWIU1GMpHYcJH0lqye
+  excerpt: >
+    In a year like no other in recent memory, the data ecosystem is showing not just remarkable resilience but exciting vibrancy.
+
+    When COVID hit the world a few months ago, an extended period of gloom seemed all but inevitable. Yet, as per Satya Nadella, “_two years of digital transformation \[occurred\] in two months_”. Cloud and data technologies (data infrastructure, machine learning / artificial intelligence, data driven applications) are at the heart of digital transformation. As a result, many companies in the data ecosystem have not just survived, but in fact thrived, in an otherwise overall challenging political and economic context.
+  links:
+  - text: Article
+    href: https://mattturck.com/data2020/
+  - text: Spreadsheet of Relevant Companies
+    href: http://dfkoz.com/big-data-landscape
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@mattturck'
+- name: app2
+  category: application
+  title: 'Feature Store: The Missing Data Layer in ML Pipelines?'
+  image: /assets/img/mlutd21app2.png
+  imageCaption:
+    text: A diagram of interface between feature eng and model dev
+    href: https://www.logicalclocks.com/blog/feature-store-the-missing-data-layer-in-ml-pipelines
+  excerpt: >
+    A feature store is a central vault for storing documented, curated, and access-controlled features. In this blog post, we discuss the state-of-the-art in data management for deep learning and present the first open-source feature store, available in Hopsworks.
+  links:
+  - text: Article
+    href: https://www.logicalclocks.com/blog/feature-store-the-missing-data-layer-in-ml-pipelines
+  - text: Google paper on ML as high-interest tech debt
+    href: https://static.googleusercontent.com/media/research.google.com/sv//pubs/archive/43146.pdf
+  credit:
+  - type: Link
+    properties:
+      title: Logical Clocks
+      href: 'https://lh4.googleusercontent.com/4vGU4cvXP-0DHS5fOZnc8kqiLH6MW3VKO9bJ9d4HzbLeg5y6thLm3QQFtFW-siuV2uOwGKMVJRs_2KZDf5JsbEz1KXjU70y1nvB2WzEtfUdTyrJc1nyHkRsWIU1GMpHYcJH0lqye'
+- name: app3
+  category: application
+  title: 'Using a TensorFlow Deep Learning Model for Forex Trading'
+  image: /assets/img/mlutd21app3.png
+  imageCaption:
+    text: A diagram of the system that Adam built
+    href: https://medium.com/towards-artificial-intelligence/using-a-tensorflow-deep-learning-model-for-forex-trading-ec4eff2ebe60
+  excerpt: >
+    I have previously created a model to predict the Forex market [...]
+
+    Now we want to use this model for trading under a commercial trading platform and see if it is going to generate a profit.
+
+    The techniques used in this story are focusing on the model in my previous story, but they can be tweaked to fit another model. The intention here is to make the model usable by other systems, e.g. a trading platform.
+  links:
+  - text: Article
+    href: https://medium.com/towards-artificial-intelligence/using-a-tensorflow-deep-learning-model-for-forex-trading-ec4eff2ebe60
+  - text: 'Github: AdamTibi/LSTM-FX'
+    href: https://github.com/AdamTibi/LSTM-FX
+  credit:
+  - type: Medium
+    properties:
+      handle: '@AdamTibi'
+- name: the1
+  category: theory
+  title: 'Fast reinforcement learning through the composition of behaviours'
+  image: /assets/img/mlutd21the1.png
+  imageCaption:
+    text: 'A diagram of generalized policy improvement (GPI)'
+    href: https://deepmind.com/blog/article/fast-reinforcement-learning-through-the-composition-of-behaviours
+  excerpt: >
+    A major limitation in RL is that current methods require vast amounts of training experience. For example, in order to learn how to play a single Atari game, an RL agent typically consumes an amount of data corresponding to several weeks of uninterrupted playing. A [study](http://gershmanlab.webfactional.com/pubs/Tsividis17.pdf) led by researchers at MIT and Harvard indicated that in some cases, humans are able to reach the same performance level in just fifteen minutes of play.
+
+    One possible reason for this discrepancy is that, unlike humans, RL agents usually learn a new task from scratch. We would like our agents to leverage knowledge acquired in previous tasks to learn a new task more quickly, in the same way that a cook will have an easier time learning a new recipe than someone who has never prepared a dish before. In [an article](https://www.pnas.org/content/early/2020/08/13/1907370117) recently published in the Proceedings of the National Academy of Sciences (PNAS), we describe a framework aimed at endowing our RL agents with this ability.
+  links:
+  - text: Article
+    href: https://deepmind.com/blog/article/fast-reinforcement-learning-through-the-composition-of-behaviours
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@deepmind'
+- name: the2
+  category: theory
+  title: 'LSTMs Compose (and Learn) Bottom-Up'
+  image: /assets/img/mlutd21the2.png
+  imageCaption:
+    text: An example of a dependency-parsed sentence
+    href: https://arxiv.org/pdf/2010.04650.pdf
+  excerpt: >
+    Recent work in NLP shows that LSTM language models capture hierarchical structure in language data. In contrast to existing work, we consider the learning process that leads to their compositional behavior. For a closer look at how an LSTM's sequential representations are composed hierarchically, we present a related measure of Decompositional Interdependence (DI) between word meanings in an LSTM, based on their gate interactions. We connect this measure to syntax with experiments on English language data, where DI is higher on pairs of words with lower syntactic distance. To explore the inductive biases that cause these compositional representations to arise during training, we conduct simple experiments on synthetic data. These synthetic experiments support a specific hypothesis about how hierarchical structures are discovered over the course of training: that LSTM constituent representations are learned bottom-up, relying on effective representations of their shorter children, rather than learning the longer-range relations independently from children.
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2010.04650.pdf
+  credit:
+  - type: Text
+    properties:
+      text: Paper authors
+- name: the3
+  category: theory
+  title: 'Fourier Neural Operator for Parametric Partial Differential Equations'
+  image: /assets/img/mlutd21the3.png
+  imageCaption:
+    text: A comparison of the Fourier transform and Navier-Stokes equation
+    href: https://arxiv.org/pdf/2010.08895.pdf
+  excerpt: >
+    The classical development of neural networks has primarily focused on learning mappings between finite-dimensional Euclidean spaces. Recently, this has been generalized to neural operators that learn mappings between function spaces. For partial differential equations (PDEs), neural operators directly learn the mapping from any functional parametric dependence to the solution. Thus, they learn an entire family of PDEs, in contrast to classical methods which solve one instance of the equation. In this work, we formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture. We perform experiments on Burgers' equation, Darcy flow, and the Navier-Stokes equation (including the turbulent regime). Our Fourier neural operator shows state-of-the-art performance compared to existing neural network methodologies and it is up to three orders of magnitude faster compared to traditional PDE solvers.
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2010.08895.pdf
+  credit:
+  - type: Text
+    properties:
+      text: 'Paper authors'

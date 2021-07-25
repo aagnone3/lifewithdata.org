@@ -1,9 +1,10 @@
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import media from 'styled-media-query';
-import LocalizedLink from '../LocalizedLink';
 
 export const HeaderWrapper = styled.div`
-  background-color: var(--bg-light);
+  /* background-image: linear-gradient(white, grey); */
+  background-image: linear-gradient(grey, white);
   ${media.greaterThan('large')`
     margin-bottom: var(--space);
   `}
@@ -16,17 +17,13 @@ export const Container = styled.div`
   margin: 0 auto;
   justify-content: flex-start;
   align-items: center;
-  padding: calc(var(--space) * 1.3) var(--space);
   position: relative;
   ${media.greaterThan('medium')`
     flex-direction: row;
   `}
-  ${media.greaterThan('large')`
-    padding: calc(var(--space)*1.3) var(--space-sm);
-  `}
 `;
 
-export const LogoLink = styled(LocalizedLink)`
+export const LogoLink = styled(Link)`
   display: inline-block;
   margin-right: 0.5rem;
   width: 170px;
@@ -47,8 +44,4 @@ export const NavMenu = styled.div`
   &.is-active {
     display: block;
   }
-`;
-
-export const NavLanguages = styled.div`
-  margin-left: var(--space);
 `;

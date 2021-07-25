@@ -1,0 +1,123 @@
+article_num: '23'
+date: '2020-11-28'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'The Rise of ML Ops: Why Model Performance Monitoring Could Be the Next Billion-Dollar Industry'
+  image: /assets/img/mlutd23app1.png
+  imageCaption:
+    text: How On-Premise APM is approaching Cloud-Native MPM
+    href: https://twosigmaventures.com/blog/article/the-rise-of-ml-ops-why-model-performance-monitoring-could-be-the-next-billion-dollar-industry
+  excerpt: >
+    Over the past two decades, there has been a wave of application performance monitoring (APM) companies that has fundamentally changed the course of software development; Datadog, New Relic, PagerDuty, AppDynamics, Dynatrace, and Splunk have created nearly $90B in market cap and growing. APM has enabled companies to prevent outages, monitor uptime, and ultimately has catalyzed digital transformation and the migration to cloud. These days it is difficult to imagine mission-critical software that relies on manual troubleshooting and spot-checking instead of systematic tooling. But such ad-hoc, unscalable workflows are shockingly commonplace in the world of machine learning systems.
+
+    Much like cloud-native computing has ushered in a new era of software development and tooling, we believe data-driven systems, enabled by machine learning, have the power to unlock the next wave of innovation. In turn, we believe there will be a need for an analogous set of model performance monitoring (MPM) tools to help with data quality, drift, model performance, and system reliability. Companies like WhyLabs, Toro Data, Mona Labs, Monte Carlo Data, LightUp, Soda Data, among many others, are just beginning to capitalize on what we see as a multi-decade long trend.
+  links:
+  - text: Article
+    href: https://twosigmaventures.com/blog/article/the-rise-of-ml-ops-why-model-performance-monitoring-could-be-the-next-billion-dollar-industry
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@schwiepit'
+  - type: Twitter
+    properties:
+      handle: '@VinIyengar'
+- name: app2
+  category: application
+  title: 'Mineral: Bringing the era of computational agriculture to life'
+  image: /assets/img/mlutd23app2.png
+  imageCaption:
+    text: Mineral prototypes in a soybean field measuring sources of yield
+    href: https://blog.x.company/mineral-bringing-the-era-of-computational-agriculture-to-life-427bca6bd56a
+  excerpt: >
+    At X we say that [10x is easier than 10%](https://www.wired.com/2013/02/moonshots-matter-heres-how-to-make-them-happen/). This might sound counterintuitive but it’s a recognition that by trying the same ideas and same tools that plenty of smart people tried before us, it’s unlikely we’ll make more than incremental progress, no matter how hard we work. 10x thinking unlocks a new way of approaching these problems. It gives us the courage to ask questions [that may once have been seen as laughable](https://grist.org/article/alphabets-captain-of-moonshots-if-no-one-laughs-your-idea-isnt-big-enough/), yet have the potential to bring about a completely different way of seeing the world.
+
+    [...] Just as the microscope led to a transformation in how diseases are detected and managed, we hope that better tools will enable the agriculture industry to transform how food is grown. Over the last few years my team and I have been developing the tools of what we call [computational agriculture](https://blog.x.company/entering-the-era-of-computational-agriculture-9f8417f21be0), in which farmers, breeders, agronomists, and scientists will lean on new types of hardware, software, and sensors to collect and analyze information about the [complexity of the plant world](https://blog.x.company/embracing-the-complexity-of-nature-45afc5bf5573).
+  links:
+  - text: Article
+    href: https://blog.x.company/mineral-bringing-the-era-of-computational-agriculture-to-life-427bca6bd56a
+  - text: X's Mineral project website
+    href: https://x.company/projects/mineral
+  credit:
+  - type: Medium
+    properties:
+      handle: '@ElliotGrant'
+- name: app3
+  category: application
+  title: 'GPU-Accelerated Mobile Apps with Android NDK & Vulkan Kompute'
+  image: /assets/img/mlutd23app3.png
+  imageCaption:
+    text: A snapshot of Vulkan Kompute in Android NDK
+    href: https://towardsdatascience.com/gpu-accelerated-machine-learning-in-your-mobile-applications-using-the-android-ndk-vulkan-kompute-1e9da37b7617
+  excerpt: >
+    Tapping into that power — especially the GPU processing power — for on-device data processing capabilities becomes growingly important as mobile hardware [only continues to improv](https://www.mobilemarketer.com/news/mobile-games-sparked-60-of-2019-global-game-revenue-study-finds/569658/)e. Recently, this has been opening exciting opportunities around [edge computing](https://en.wikipedia.org/wiki/Edge_computing), [federated architectures](https://en.wikipedia.org/wiki/Federated_architecture), [mobile deep learning](https://arxiv.org/abs/1910.06663), and more.
+
+    This article provides a technical deep dive that shows you how to tap into the power of mobile cross-vendor GPUs. You will learn how to use the [**Android Native Development Kit**](https://developer.android.com/ndk) and the [**Kompute framework**](https://github.com/EthicalML/vulkan-kompute) to write GPU optimized code for Android devices. The end result will be a mobile app created in Android Studio that is able to use a GPU accelerated machine learning model which we will write from scratch, together with a user interface that will allow the user to send the input to the model.
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/gpu-accelerated-machine-learning-in-your-mobile-applications-using-the-android-ndk-vulkan-kompute-1e9da37b7617
+  - text: Android Native Dev Kit (NDK)
+    href: https://developer.android.com/ndk
+  - text: Vulkan Kompute Framework
+    href: https://github.com/EthicalML/vulkan-kompute
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@AxSaucedo'
+- name: the1
+  category: theory
+  title: 'Self-training and Pre-training are Complementary for Speech Recognition'
+  image: /assets/img/mlutd23the1.png
+  imageCaption:
+    text: Performance comparisons across ratios of labeled and unlabeled data
+    href: https://arxiv.org/abs/2010.11430
+  excerpt: >
+    Self-training and unsupervised pre-training have emerged as effective approaches to improve speech recognition systems using unlabeled data. However, it is not clear whether they learn similar patterns or if they can be effectively combined. In this paper, we show that pseudo-labeling and pre-training with wav2vec 2.0 are complementary in a variety of labeled data setups. Using just 10 minutes of labeled data from Libri-light as well as 53k hours of unlabeled data from LibriVox achieves WERs of 3.0%/5.2% on the clean and other test sets of Librispeech - rivaling the best published systems trained on 960 hours of labeled data only a year ago. Training on all labeled data of Librispeech achieves WERs of 1.5%/3.1%.
+  links:
+  - text: Article
+    href: https://arxiv.org/abs/2010.11430
+  - text: Wav2Vec Model
+    href: https://github.com/pytorch/fairseq/tree/master/examples/wav2vec
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@facebookai'
+- name: the2
+  category: theory
+  title: 'Interpretable Machine Learning -- History, SOTA & Challenges'
+  image: /assets/img/mlutd23the2.png
+  imageCaption:
+    text: The seemingly inherent tradeoff of interpretability and predictive power
+    href: https://miro.medium.com/max/699/0*7aEFnmaxbKzwqUNc
+  excerpt: >
+    We present a brief history of the field of interpretable machine learning (IML), give an overview of state-of-the-art interpretation methods, and discuss challenges. Research in IML has boomed in recent years. As young as the field is, it has over 200 years old roots in regression modeling and rule-based machine learning, starting in the 1960s. Recently, many new IML methods have been proposed, many of them model-agnostic, but also interpretation techniques specific to deep learning and tree-based ensembles. IML methods either directly analyze model components, study sensitivity to input perturbations, or analyze local or global surrogate approximations of the ML model. The field approaches a state of readiness and stability, with many methods not only proposed in research, but also implemented in open-source software. But many important challenges remain for IML, such as dealing with dependent features, causal interpretation, and uncertainty estimation, which need to be resolved for its successful application to scientific problems. A further challenge is a missing rigorous definition of interpretability, which is accepted by the community. To address the challenges and advance the field, we urge to recall our roots of interpretable, data-driven modeling in statistics and (rule-based) ML, but also to consider other areas such as sensitivity analysis, causal inference, and the social sciences.
+  links:
+  - text: Article
+    href: https://arxiv.org/abs/2010.09337
+  credit:
+  - type: Text
+    properties:
+      text: Paper authors
+- name: the3
+  category: theory
+  title: 'Introducing the COVID-19 Simulator and Machine Learning Toolkit for Predicting COVID-19 Spread'
+  image: /assets/img/mlutd23the3.png
+  imageCaption:
+    text: A block diagram of the general architecture of the simulator
+    href: https://aws.amazon.com/blogs/machine-learning/introducing-the-covid-19-simulator-and-machine-learning-toolkit-for-predicting-covid-19-spread
+  excerpt: >
+    There have been breakthroughs in understanding COVID-19, such as how soon an exposed person will develop symptoms and how many people on average will contract the disease after contact with an exposed individual. The wider research community is actively working on accurately predicting the percent population who are exposed, recovered, or have built immunity. Researchers currently build epidemiology models and simulators using available data from agencies and institutions, as well as historical data from similar diseases such as influenza, SARS, and MERS. It’s an uphill task for any model to accurately capture all the complexities of the real world. Challenges in building these models include learning parameters that influence variations in disease spread across multiple countries or populations, being able to combine various intervention strategies (such as school closures and stay-at-home orders), and running what-if scenarios by incorporating trends from diseases similar to COVID-19. COVID-19 remains a relatively unknown disease with no historic data to predict trends.
+
+    We are now open-sourcing a toolset for researchers and data scientists to better model and understand the progression of COVID-19 in a given community over time. This toolset is comprised of a disease progression simulator and several machine learning (ML) models to test the impact of various interventions. First, the ML models help bootstrap the system by estimating the disease progression and comparing the outcomes to historical data. Next, you can run the simulator with learned parameters to play out what-if scenarios for various interventions. In the following diagram, we illustrate the interactions among the extensible building blocks in the toolset.
+  links:
+  - text: Article
+    href: https://aws.amazon.com/blogs/machine-learning/introducing-the-covid-19-simulator-and-machine-learning-toolkit-for-predicting-covid-19-spread
+  - text: Oxford Coronavirus Government Response Tracker
+    href: https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker
+  - text: Github for COVID-19 Simulation Code
+    href: https://github.com/aws-samples/covid19-simulation
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@awscloud'

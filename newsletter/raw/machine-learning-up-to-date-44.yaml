@@ -1,0 +1,183 @@
+article_num: '44'
+date: '2021-04-14'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Build a Cat-or-Dog Classification Flutter App with TensorFlow Lite'
+  header: build-a-cat-or-dog-classification-flutter-app-with-tensorflow-lite
+  image: /assets/img/mlutd44app1.png
+  imageCaption:
+    text: Source
+    href: https://unsplash.com/photos/7QjU_u2vGDs
+  excerpt: '
+    Object detection, image classification, gesture recognition—these computer vision tasks are all hot topics in today’s machine learning landscape. There are many applications today that leverage these technologies to provide efficient and optimized solutions. And increasingly, these technologies are finding their way into mobile applications.
+
+    This tutorial aims to deliver one such demonstrative application, using the TensorFlow machine learning library in a Flutter project to perform binary image classification—cats vs dogs, a fundamental use case.
+
+    To do this, we’ll need a pre-trained classification model intended for mobile use. If you’d prefer, you can also train your own model using Teachable Machine, a no-code model building service offered by TensorFlow.
+
+    Using the TensorFlow Lite library will help us load as well as apply the model for image classification on mobile. Image classification is a computer vision task that works to identify and categorize various elements of images and/or videos. Image classification models are trained to take an image as input and output one or more labels describing the image.
+
+    The main idea is to make use of the TensorFlow Lite plugin and classify an image of an animal and classify whether it’s a dog or a cat. Along the way, we will also make use of the Image Picker library to fetch images from the device gallery or storage. The main process will be to load our pre-trained cat/dog model using the TensorFlow Lite library and classify the test animal image based on it.
+
+    [... keep reading](https://heartbeat.fritz.ai/build-a-cat-or-dog-classification-flutter-app-tensorflow-lite-7b57223d7754)
+    '
+  links:
+  - text: Article
+    href: https://heartbeat.fritz.ai/build-a-cat-or-dog-classification-flutter-app-tensorflow-lite-7b57223d7754
+  - text: Tensorflow Lite
+    href: https://heartbeat.fritz.ai/how-tensorflow-lite-optimizes-neural-networks-for-mobile-machine-learning-e6ffa7f8ee12
+  - text: Teachable Machine
+    href: https://teachablemachine.withgoogle.com
+  - text: image_picker
+    href: https://pub.dev/packages/image_picker
+  - text: Github krissnawat/cat-dog-detector-flutter
+    href: https://github.com/krissnawat/cat-dog-detector-flutter
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@fritzlabs'
+- name: app2
+  category: application
+  title: 'D2Go brings Detectron2 to mobile'
+  header: d2go-brings-detectron2-to-mobile
+  image: /assets/img/mlutd44app2.png
+  imageCaption:
+    text: 'Source'
+    href: https://ai.facebook.com/blog/d2go-brings-detectron2-to-mobile
+  excerpt: '
+    Detectron2, released by Facebook AI Research (FAIR) in 2019, gives developers an easy path to plugging custom modules into any object detection system. Today, the Mobile Vision team at Facebook Reality Labs (FRL) is expanding on Detectron2 with the introduction of Detectron2Go (D2Go), a new, state-of-the-art extension for training and deploying efficient deep learning object detection models on mobile devices and hardware. D2Go is built on top of Detectron2, PyTorch Mobile, and TorchVision. It’s the first tool of its kind, and it will allow developers to take their machine learning models from training all the way to deployment on mobile.
+
+    [... keep reading](https://ai.facebook.com/blog/d2go-brings-detectron2-to-mobile/)
+    '
+  links:
+  - text: Article
+    href: https://ai.facebook.com/blog/d2go-brings-detectron2-to-mobile
+  - text: Github facebookresearch/detectron2
+    href: https://github.com/facebookresearch/detectron2
+  - text: PyTorch Mobile
+    href: https://pytorch.org/mobile/home
+  - text: TorchVision
+    href: https://pytorch.org/vision/stable/index.html
+  - text: Facebook's smart camera
+    href: https://ai.facebook.com/blog/smart-camera-portal-advances
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@facebookai'
+- name: app3
+  category: application
+  title: 'Data Documentation Woes? Here’s a Framework'
+  header: data-documentation-woes-here-s-a-framework
+  image: /assets/img/mlutd44app3.png
+  imageCaption:
+    text: 'Source'
+    href: https://atlan.com/
+  excerpt: '
+    In 2016, I was at the helm of a data team that was rapidly scaling. We had vast amounts of new tables getting generated, new projects going live, and several new team members joining. But our team wasn’t built to scale.
+
+    Only the older team members had enough context about the data we were using. So with our crazy deadlines, they ended up doing all the extra work themselves and were overworked. New team members were frustrated because they lacked the context they needed to actually do productive work — and when they did do work, it wasn’t useful. The company and culture I had spent so much effort building had started to deteriorate around me.
+
+    Then, to make matters worse, our oldest data team member, someone who’d been with us for two years, told me that he wanted to quit. I was shell-shocked. This analyst had literally all the context about all our data and projects in his head. We were growing fast, and we had our dream customers and projects lined up. I had looked into our customers’ eyes and promised that we would deliver. They had chosen to trust us. How were we going to follow through now?
+
+    [... keep reading](https://towardsdatascience.com/data-documentation-woes-heres-a-framework-6aba8f20626c)
+    '
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/data-documentation-woes-heres-a-framework-6aba8f20626c
+  - text: Atlan
+    href: https://atlan.com
+  - text: Culture Map
+    href: https://www.strategyzer.com/blog/posts/2015/10/13/the-culture-map-a-systematic-intentional-tool-for-designing-great-company-culture
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@AtlanHQ'
+- name: the1
+  category: theory
+  title: 'Applying Algorithmic Fairness Approaches to Production Systems'
+  header: applying-algorithmic-fairness-approaches-to-production-systems
+  image: /assets/img/mlutd44the1.png
+  imageCaption:
+    text: 'Source'
+    href: https://ai.facebook.com/research/publications/applying-algorithmic-fairness-approaches-to-production-systems
+  excerpt: >
+    Many technical approaches have been proposed for ensuring that decisions made by machine learning systems are fair, but few of these proposals have been stress-tested in real-world systems. This paper presents an example of one team’s approach to the challenge of applying algorithmic fairness approaches to complex production systems within the context of a large technology company. We discuss how we disentangle normative questions of product and policy design (like, “how should the system trade off between different stakeholders’ interests and needs?”) from empirical questions of system implementation (like, “is the system achieving the desired tradeoff in practice?”). We also present an approach for answering questions of the latter sort, which allows us to measure how machine learning systems and human labelers are making these tradeoffs across different relevant groups. We hope our experience integrating fairness tools and approaches into large-scale and complex production systems will be useful to other practitioners facing similar challenges, and illuminating to academics and researchers looking to better address the needs of practitioners.
+
+    [... keep reading](https://ai.facebook.com/research/publications/applying-algorithmic-fairness-approaches-to-production-systems/)
+  links:
+  - text: Article
+    href: https://ai.facebook.com/research/publications/applying-algorithmic-fairness-approaches-to-production-systems/
+  - text: FAIR Learn
+    href: https://www.microsoft.com/en-us/research/publication/fairlearn-a-toolkit-for-assessing-and-improving-fairness-in-ai
+  - text: 'Paper: Fairness-aware learning'
+    href: https://doi.org/10.1109/ICDMW.2011.83
+  - text: 'Paper: Problem Formulation and Awareness'
+    href: https://doi.org/10.1145/3287560.3287567
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@facebookai'
+- name: the2
+  category: theory
+  title: 'The Mathematical Engineering of Deep Learning'
+  header: the-mathematical-engineering-of-deep-learning
+  image: /assets/img/mlutd44the2.png
+  imageCaption:
+    text: 'Source'
+    href: https://deeplearningmath.org/
+  excerpt: >
+    In the last few years deep learning has seen explosive growth and even dubbed as the “new electricity”. This is due to its incredible success in transforming and improving a variety of automated applications. At its core, deep learning is a collection of models, algorithms, and techniques, such that when assembled together, efficient automated machine learning is executed. The result is a method to create trained models that are able to detect, classify, translate, create and take part in systems that execute human like tasks and beyond.
+
+    In this course we focus on the mathematical engineering aspects of deep learning. For this we survey and investigate the collection of algorithms, models, and methods that allow the statistician, mathematician, or machine learning professional to use deep learning methods effectively. Many machine learning courses focus either on the practical aspects of programming deep learning, or alternatively on the full development of machine learning theory, only presenting deep learning as a special case. In contrast, in this course, we focus directly on deep learning methods, building an understanding of the engineering mathematics that drives this field.
+
+    A student completing this course will possess a solid understanding of the fundamental models, algorithms, and techniques of deep learning. These include feedforward networks, convolutional networks, recurrent neural networks, autoencoders, generative adversarial networks, reinforcement learning, first order methods of learning (optimization), second order method of learning, regularization techniques, and general benchmarking methods.
+
+    The course includes deep learning demonstrations using several alternative software options. However, the focus is primarily on the mathematical formulation of deep learning and software usage (and programming) is only a secondary focus.
+
+    [... keep reading](https://deeplearningmath.org/)
+  links:
+  - text: Article
+    href: https://deeplearningmath.org
+  - text: 'Unit 1: Intro'
+    href: https://deeplearningmath.org/supervised-machine-learning.html
+  - text: Suggested software & resources
+    href: https://deeplearningmath.org/suggested-software-and-resources.html
+  - text: 'Github: yoninazarathy/MathematicalEngineeringDeepLearning'
+    href: https://github.com/yoninazarathy/MathematicalEngineeringDeepLearning
+  credit:
+  - type: Website
+    properties:
+      text: deeplearningmath.org
+      href: 'https://deeplearningmath.org'
+- name: the3
+  category: theory
+  title: 'LEAF: A Learnable Frontend for Audio Classification'
+  header: leaf-a-learnable-frontend-for-audio-classification
+  image: /assets/img/mlutd44the3.png
+  imageCaption:
+    text: 'Source'
+    href: https://github.com/google-research/leaf-audio
+  excerpt: '
+    Developing machine learning (ML) models for audio understanding has seen tremendous progress over the past several years. Leveraging the ability to learn parameters from data, the field has progressively shifted from composite, handcrafted systems to today’s deep neural classifiers that are used to recognize speech, understand music, or classify animal vocalizations such as bird calls. However, unlike computer vision models, which can learn from raw pixels, deep neural networks for audio classification are rarely trained from raw audio waveforms. Instead, they rely on pre-processed data in the form of mel filterbanks — handcrafted mel-scaled spectrograms that have been designed to replicate some aspects of the human auditory response.
+
+    Although modeling mel filterbanks for ML tasks has been historically successful, it is limited by the inherent biases of fixed features: even though using a fixed mel-scale and a logarithmic compression works well in general, we have no guarantee that they provide the best representations for the task at hand. In particular, even though matching human perception provides good inductive biases for some application domains, e.g., speech recognition or music understanding, these biases may be detrimental to domains for which imitating the human ear is not important, such as recognizing whale calls. So, in order to achieve optimal performance, the mel filterbanks should be tailored to the task of interest, a tedious process that requires an iterative effort informed by expert domain knowledge. As a consequence, standard mel filterbanks are used for most audio classification tasks in practice, even though they are suboptimal. In addition, while researchers have proposed ML systems to address these problems, such as Time-Domain Filterbanks, SincNet and Wavegram, they have yet to match the performance of traditional mel filterbanks.
+
+    In “LEAF, A Fully Learnable Frontend for Audio Classification”, accepted at ICLR 2021, we present an alternative method for crafting learnable spectrograms for audio understanding tasks. LEarnable Audio Frontend (LEAF) is a neural network that can be initialized to approximate mel filterbanks, and then be trained jointly with any audio classifier to adapt to the task at hand, while only adding a handful of parameters to the full model. We show that over a wide range of audio signals and classification tasks, including speech, music and bird songs, LEAF spectrograms improve classification performance over fixed mel filterbanks and over previously proposed learnable systems. We have implemented the code in TensorFlow 2 and released it to the community through our GitHub repository.
+
+    [... keep reading](https://ai.googleblog.com/2021/03/leaf-learnable-frontend-for-audio.html)
+    '
+  links:
+    - text: Article
+      href: https://ai.googleblog.com/2021/03/leaf-learnable-frontend-for-audio.html
+    - text: 'Paper: LEAF'
+      href: https://arxiv.org/abs/2101.08596
+    - text: Tensorflow 2
+      href: https://www.tensorflow.org/guide
+    - text: 'Github: google-research/leaf-audio'
+      href: https://github.com/google-research/leaf-audio
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@googleai'

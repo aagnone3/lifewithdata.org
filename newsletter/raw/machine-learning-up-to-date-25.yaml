@@ -1,0 +1,129 @@
+article_num: '25'
+date: '2020-12-02'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Stop Using Kubernetes for ML-Ops; Instead use Kubernetes'
+  image: /assets/img/mlutd25app1.png
+  imageCaption:
+    text: The interface between k8s and Allegro Trains
+    href: https://allegro.ai/blog/stop-using-kubernetes-for-ml-ops
+  excerpt: >
+    We often think of 'deployment' as packaging software into an artifact and moving it to an environment to run on. For Machine Learning it can be better to think of deployment as “the action of bringing resources into effective action” (one of Oxford’s definitions of 'deployment').
+
+    There are a range of patterns for using ML models to make business decisions. Deploying machine learning models can mean different things, depending on the context. Understanding the key prediction-making patterns can help to decide on which tools apply to your use case.
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/navigating-ml-deployment-34e35a18d514
+  credit:
+  - type: Medium
+    properties:
+      handle: '@ryandawsonuk'
+- name: app2
+  category: application
+  title: 'It’s All Just Wiggly Air: Building Infrastructure to Support Audio Research'
+  image: /assets/img/mlutd25app2.png
+  imageCaption:
+    text: A sneak peek at the Klio documentation
+    href: https://docs.klio.io/en/latest/index.html
+  excerpt: >
+    **TL;DR** We just open sourced [Klio](https://venturebeat.com/2020/10/13/spotify-open-sources-klio-a-framework-for-ai-audio-research/) — our framework for building smarter data pipelines for audio and other media processing. Based on Python and Apache Beam, [Klio](https://klio.io/) helps our teams process Spotify’s massive catalog of music and podcasts, faster and more efficiently. We think Klio’s [ease of use](https://docs.klio.io/) — and its ability to let anyone leverage modern cloud infrastructure and tooling — has the potential to unlock new possibilities in media and ML research everywhere, from big tech companies to universities and libraries.
+
+    But now we’re getting ahead of ourselves. What exactly is Klio and what does it do? Let’s start with the problem of audio itself.
+  links:
+  - text: Article
+    href: https://engineering.atspotify.com/2020/11/04/its-all-just-wiggly-air-building-infrastructure-to-support-audio-research
+  - text: Klio
+    href: https://docs.klio.io/en/latest/index.html
+  - text: Klio Github
+    href: https://github.com/spotify/klio
+  - text: Klio Docs
+    href: https://docs.klio.io/en/latest/index.html
+  - text: Spotify Audio Features API
+    href: https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@SpotifyEng'
+- name: app3
+  category: application
+  title: 'Safely Rolling Out ML Models To Production'
+  image: /assets/img/mlutd25app3.png
+  imageCaption:
+    text: A diagram of what the author calls the "ML Orchestra"
+    href: https://towardsdatascience.com/safely-rolling-out-ml-models-to-production-13e0b8211a2f
+  excerpt: >
+    Replacing or publishing a new version to production touches upon the core decision making logic of your business process. With AI adoption rising, the necessity to automatically publish and update models is becoming a common and frequent task, which makes it a top concern for data science teams.
+
+    In this article, I will review what makes the rollout of a new version so sensitive, what precautions are required, and how to leverage monitoring to optimize your Continuous Integration (CI) pipeline, as well as your Continuous Deployment (CD) one to safely achieve your goals.
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/safely-rolling-out-ml-models-to-production-13e0b8211a2f
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@orenrazon'
+- name: the1
+  category: theory
+  title: 'Noah’s Ark Lab Multi-Agent RL Simulation for Autonomous Driving'
+  image: /assets/img/mlutd25the1.png
+  imageCaption:
+    text: A snapshot of the simulation
+    href: https://medium.com/syncedreview/corl-2020-best-system-paper-winner-noahs-ark-lab-multi-agent-rl-simulation-for-autonomous-driving-904c2fac8ac4
+  excerpt: >
+    The [CoRL 2020 Best System Paper Award](https://www.youtube.com/watch?v=KNVTASwezyw) was presented today to Huawei Noah’s Ark Lab, Shanghai Jiao Tong University and University College London for their paper _SMARTS: Scalable Multi-Agent Reinforcement Learning Training School for Autonomous Driving._ The CoRL 2020 Award Committee praised the work as “a thorough and well-thought-out system with strong potential impact for the Autonomous Driving community.”
+
+    The paper introduces SMARTS (Scalable Multi-Agent RL Training School), a realistic multi-agent simulation platform for autonomous driving. SMARTS supports the training, accumulation, and use of diverse road user behaviour models to help reinforcement learning (RL) researchers examine realistic road interaction scenarios. It has been open-sourced.
+  links:
+  - text: Article
+    href: https://medium.com/syncedreview/corl-2020-best-system-paper-winner-noahs-ark-lab-multi-agent-rl-simulation-for-autonomous-driving-904c2fac8ac4
+  credit:
+  - type: Medium
+    properties:
+      handle: '@Synced'
+- name: the2
+  category: theory
+  title: 'MLflow and PyTorch — Where Cutting Edge AI meets MLOps'
+  image: /assets/img/mlutd25the2.png
+  imageCaption:
+    text: Matching up MLFlow and PyTorch features
+    href: https://medium.com/pytorch/mlflow-and-pytorch-where-cutting-edge-ai-meets-mlops-1985cf8aa789
+  excerpt: >
+    PyTorch has continued to evolve rapidly since the introduction of PyTorch 1.0, which brought an accelerated workflow from research to production. Looking at the momentum in research, as shown on [paperswithcode.com/trends](http://paperswithcode.com/trends), we can see that the research community has embraced PyTorch as its tool of choice. Conversely, the enterprise and production users of the world such as Lyft Level 5, Microsoft, AstraZeneca and many others, are realizing real product value through deploying PyTorch at scale. MLOps and end-to-end lifecycle management of machine learning is an important bridge between these communities, and the combination of state of the art AI developed on PyTorch and MLOps is a powerful force that will bring the impact of cutting edge research to products.
+
+    Today, we are announcing a number of technical contributions to enable end-to-end support for MLflow usage with PyTorch, including support for: autologging via PyTorch Lightning; TorchServe integration through a new deployment plug-in; and a sample end-to-end workflow targeting HuggingFace Transformers. This work, done in collaboration between members of the technical teams at Databricks/MLflow core maintainers and the PyTorch core development team within Facebook, is just the beginning. We expect more technical contributions in the coming months.
+  links:
+  - text: Article
+    href: https://medium.com/pytorch/mlflow-and-pytorch-where-cutting-edge-ai-meets-mlops-1985cf8aa789
+  - text: MLFlow
+    href: https://mlflow.org
+  - text: PyTorch
+    href: https://pytorch.org
+  - text: MLFlow + PyTorch Integrated Example
+    href: https://github.com/mlflow/mlflow/tree/master/examples/pytorch/BertNewsClassification0
+  credit:
+  - type: Twitter
+    properties:
+      handler: '@facebookai'
+- name: the3
+  category: theory
+  title: 'Emergent Reciprocity and Team Formation from Randomized Uncertain Social Preferences'
+  image: /assets/img/mlutd25the3.png
+  imageCaption:
+    text: Demonstration of emergent cooperation in the Infinite Prisoner's Dilemma environment
+    href: https://arxiv.org/pdf/2011.05373.pdf
+  excerpt: >
+    Multi-agent reinforcement learning (MARL) has shown recent success in increasingly complex fixed-team zero-sum environments. However, the real world is not zero-sum nor does it have fixed teams; humans face numerous social dilemmas and must learn when to cooperate and when to compete. To successfully deploy agents into the human world, it may be important that they be able to understand and help in our conflicts. Unfortunately, selfish MARL agents typically fail when faced with social dilemmas. In this work, we show evidence of emergent direct reciprocity, indirect reciprocity and reputation, and team formation when training agents with randomized uncertain social preferences (RUSP), a novel environment augmentation that expands the distribution of environments agents play in. RUSP is generic and scalable; it can be applied to any multi-agent environment without changing the original underlying game dynamics or objectives. In particular, we show that with RUSP these behaviors can emerge and lead to higher social welfare equilibria in both classic abstract social dilemmas like Iterated Prisoner's Dilemma as well in more complex inter-temporal environments.
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2011.05373.pdf
+  - text: OpenAI Multi-agent Emergence Environments
+    href: https://github.com/openai/multi-agent-emergence-environments
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@bobabowen'
+  - type: Twitter
+    properties:
+      handle: '@OpenAI'

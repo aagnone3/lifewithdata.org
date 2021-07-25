@@ -1,0 +1,156 @@
+article_num: '8'
+date: '2020-08-08'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Learning To Listen'
+  image: /assets/img/mlutd8app1.png
+  imageCaption:
+    text: ''
+    href: https://techcrunch.com/2020/04/23/apple-and-cmu-researchers-demo-a-low-friction-learn-by-listening-system-for-smarter-home-devices
+  excerpt: '
+    A cooperative effort from Apple and CMU has developed a self-supervised approach to audio event recognition in embedded devices. The motivation largely came from a need to have low-power devices efficiently adapt to their environment. Naturally, enabling this efficiency reduces accuracy; however, their self-supervised approach (with some one-shot labeling) finds a nice harmony in between the efficiency-accuracy tradeoff.
+    '
+  links:
+  - text: Link
+    href: https://techcrunch.com/2020/04/23/apple-and-cmu-researchers-demo-a-low-friction-learn-by-listening-system-for-smarter-home-devices
+  - text: Paper
+    href: https://chrisharrison.net/projects/listenlearner/ListenLearner.pdf
+  credit:
+  - type: Text
+    properties:
+      text: Jason Wu, Chris Harrison, Jeffrey P. Bigham, Gierad Laput
+- name: app2
+  category: application
+  title: 'Planning to Explore via Self-Supervised World Models'
+  image: /assets/img/mlutd8app2.png
+  imageCaption:
+    text: ''
+    href: https://ramanans1.github.io/plan2explore
+  excerpt: '
+    Reinforcement learning has been behind most of the true AI-focused developments. It typically also has an achilles heel, though — sample efficiency. While the algorithms can reach truly spectacular benchmarks, they do so in a very gradual and drawn-out process (lots of samples -lots of waiting).
+
+    A multi-org approach, spearheaded by UPenn researchers [Ramanan Sekar](https://ramanans1.github.io/) and [Oleh Rybkin](https://www.seas.upenn.edu/~oleh/), has developed a self-supervised learning agent, which generates it’s own learning targets during exploration. This approach leads to some impressive results, even coming with reach of agents which received environmental rewards during learning.
+    '
+  links:
+  - text: Link
+    href: https://ramanans1.github.io/plan2explore
+  - text: Paper
+    href: https://arxiv.org/abs/2005.05960
+  - text: Code
+    href: https://github.com/ramanans1/plan2explore
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@_ramanans'
+  - type: Twitter
+    properties:
+      handle: '@_oleh'
+- name: app3
+  category: application
+  title: 'Differential Digital Signal Processing'
+  image: /assets/img/mlutd8app3.png
+  imageCaption:
+    text: A block diagram of the Differential Digital Signal Processing network
+    href: https://storage.googleapis.com/ddsp/index.html
+  excerpt: '
+    Today, we’re pleased to introduce the Differentiable Digital Signal Processing (DDSP) library. DDSP lets you combine the interpretable structure of classical DSP elements (such as filters, oscillators, reverberation, etc.) with the expressivity of deep learning.
+
+    Neural networks (such as WaveNet or GANSynth) are often black boxes. They can adapt to different datasets but often overfit details of the dataset and are difficult to interpret. Interpretable models (such as musical grammars) use known structure, so they are easier to understand, but have trouble adapting to diverse datasets.
+
+    DSP (Digital Signal Processing, without the extra “differentiable” D) is one of the backbones of modern society, integral to telecommunications, transportation, audio, and many medical technologies. You could fill many books with DSP knowledge, but here are some fun introductions to audio signals, oscillators, and filters, if this is new to you.
+
+    The key idea is to use simple interpretable DSP elements to create complex realistic signals by precisely controlling their many parameters. For example, a collection of linear filters and sinusoidal oscillators (DSP elements) can create the sound of a realistic violin if the frequencies and responses are tuned in just the right way. However, it is difficult to dynamically control all of these parameters by hand, which is why synthesizers with simple controls often sound unnatural and “synthetic”.
+
+    [... keep reading](https://magenta.tensorflow.org/ddsp)
+    '
+  links:
+  - text: Website
+    href: https://magenta.tensorflow.org/ddsp
+  - text: Paper
+    href: https://openreview.net/forum?id=B1x1ma4tDr
+  - text: Code
+    href: https://github.com/magenta/ddsp
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@ada_rob'
+  - type: Twitter
+    properties:
+      handle: '@calbeargu'
+  - type: Twitter
+    properties:
+      handle: '@hanoihantrakul'
+  - type: Twitter
+    properties:
+      handle: '@jesseengel'
+- name: the1
+  category: theory
+  title: 'Facebook Open Sources a SOTA Chatbot'
+  image: /assets/img/mlutd8the1.png
+  imageCaption:
+    text: Facebook’s chatbot in action, on the left
+    href: https://ai.facebook.com/blog/state-of-the-art-open-source-chatbot
+  excerpt: '
+    Facebook AI has open-sourced what they call the “largest-ever open-domain chatbot.” By a combination of computation and human-based benchmarks, they show superiority over Google’s Meena chatbot, previously the largest chatbot trained.
+
+    The progressions in this space are undoubtable, but it still seems a bit of snake oil to me. Making the bot sound more human and conversational is a good thing, but I still get irked by all of the NLP hype since numerous benchmarks have shown that a lot of it boils down to memorization. This is obvious in the obscene size of the models being trained — memorization takes up much more memory than inductive learning.
+
+    Do you agree or disagree? Let me know [here](https://www.lifewithdata.org/contact).
+    '
+  links:
+  - text: Article
+    href: https://ai.facebook.com/blog/state-of-the-art-open-source-chatbot
+  - text: Code
+    href: https://parl.ai/projects/recipes
+  - text: Paper
+    href: https://arxiv.org/abs/2004.13637
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@facebookai'
+- name: the2
+  category: theory
+  title: 'OpenAI Jukebox for Music Generation'
+  image: /assets/img/mlutd8the2.png
+  imageCaption:
+    text: A t-SNE plot of genre embeddings in Jukebox’s network
+    href: https://openai.com/blog/jukebox
+  excerpt: '
+    Last week we covered [Google’s models for music generation](https://www.lifewithdata.org/newsletter/mlutd7#generate-music-waveform-domain); this week brings OpenAI’s take!
+    '
+  links:
+  - text: Article
+    href: https://openai.com/blog/jukebox/
+  - text: Paper
+    href: https://arxiv.org/abs/2005.00341
+  - text: Code
+    href: https://github.com/openai/jukebox/
+  credit:
+  - type: Website
+    properties:
+      text: OpenAI
+      href: https://openai.com/blog/authors
+- name: the3
+  category: theory
+  title: 'Feature Stores for Machine Learning'
+  image: /assets/img/mlutd8the3.png
+  imageCaption:
+    text: Popular feature scores and their characteristics
+    href: http://featurestore.org
+  excerpt: '
+    the distributed computing group at kth stockholm ([@dcatkth](https://twitter.com/dcatkth)) maintains an absolute grail of a repository for machine learning feature stores used by big players in industry. the problem of feature storing and processing machine learning is akin to the daily battles we face of storing information from emails, texts, books, etc for future use — how do we keep track of all of it, and allow for efficient retrieval and usage in the future.
+
+    the problem is still nascent in the world, and open-source dominance has yet to be established by any few frameworks. do you have a personal love or hate from your experience. [let us know](https://lifewithdata.org/contact).
+    '
+  links:
+  - text: Website
+    href: http://featurestore.org/
+  - text: KTH
+    href: https://dcatkth.github.io
+  credit:
+  - type: Website
+    properties:
+      text: KTH
+      href: 'https://dcatkth.github.io'

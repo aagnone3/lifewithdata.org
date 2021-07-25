@@ -1,0 +1,7 @@
+# my manually set redirects
+/home                                                 /                                                          301
+/mlutd*                                               /newsletter/mlutd:splat                                    301
+/ml-utd-5-machine-learning-up-to-date                 /newsletter/mlutd5                                         301
+/mlutd2-2                                             /newsletter/mlutd2                                         301
+/machine-learning-up-to-date-1                        /newsletter/mlutd1                                         301
+/deepnote-sets-course-to-become-the-jupyter-killer    /blog/deepnote-sets-course-to-become-the-jupyter-killer    301

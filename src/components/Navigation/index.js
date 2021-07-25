@@ -1,30 +1,25 @@
 import React from 'react';
 import useMenu from '../useMenu';
-import useTranslations from '../useTranslations';
 
 import * as S from './styled';
 
 const Navigation = ({ isActive, handleToggleMenu }) => {
   const menuItems = useMenu();
-  const { button } = useTranslations();
 
   return (
     <>
       <S.Navigation>
-        {menuItems.map((menu, index) => (
+        {menuItems.map((item, index) => (
           <S.NavigationLink
-            to={menu.link}
-            aria-label={menu.name}
+            to={item.link}
+            aria-label={item.name}
+            target={item.isExternalLink ? '_blank' : ''}
             activeClassName="active"
-            key={`${menu.link}${index}`}
+            key={`${item.link}${index}`}
             >
-            {menu.name}
+            {item.name}
           </S.NavigationLink>
         ))}
-
-        <S.NavigationButton to="" aria-label="Login">
-          {button}
-        </S.NavigationButton>
       </S.Navigation>
     </>
   );

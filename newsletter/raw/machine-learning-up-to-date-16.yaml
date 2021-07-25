@@ -1,0 +1,126 @@
+article_num: '16'
+date: '2020-09-30'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: "Size Doesn't Always Matter, Mr. GPT-3"
+  image: /assets/img/mlutd16app1.png
+  imageCaption:
+    text: Performance of a substantially smaller language model, as compared to GPT-3
+    href: https://github.com/timoschick/pet
+  excerpt: '
+    Some NLP tasks can be solved in a fully unsupervised fashion by providing a pretrained language model with "task descriptions” in natural language (e.g., Radford et al., 2019). While this approach underperforms its supervised counterpart, we show in this work that the two ideas can be combined: We introduce PatternExploiting Training (PET), a semi-supervised training procedure that reformulates input examples as cloze-style phrases to help language models understand a given task. These phrases are then used to assign soft labels to a large set of unlabeled examples. Finally, regular supervised training is performed on the resulting training set. For several tasks and languages, PET outperforms both supervised training and unsupervised approaches in low-resource settings by a large margin.  
+    '
+  links:
+  - text: Paper 1
+    href: https://arxiv.org/pdf/2001.07676.pdf
+  - text: Paper 2
+    href: https://arxiv.org/abs/2009.07118
+  - text: Github
+    href: https://github.com/timoschick/pet
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@timoshick'
+- name: app2
+  category: application
+  title: 'DiffBot is Building a Universal Knowledge Graph'
+  image: /assets/img/mlutd16app2.png
+  imageCaption:
+    text: ''
+    href: https://www.technologyreview.com/2020/09/04/1008156/knowledge-graph-ai-reads-web-machine-learning-natural-language-processing
+  excerpt: '
+    Language models like GPT-3 are [amazing mimics](https://www.technologyreview.com/2020/07/31/1005876/natural-language-processing-evaluation-ai-opinion/), but they have little sense of what they’re actually saying. "They’re really good at generating stories about unicorns,” says Mike Tung, CEO of Stanford startup Diffbot. "But they’re not trained to be factual.”
+
+    This is a problem if we want [AIs to be trustworthy](https://forms.technologyreview.com/in-machines-we-trust/). That’s why Diffbot takes a different approach. It is building an AI that reads every page on the entire public web, in multiple languages, and extracts as many facts from those pages as it can.  
+    '
+  links:
+  - text: Article
+    href: https://www.technologyreview.com/2020/09/04/1008156/knowledge-graph-ai-reads-web-machine-learning-natural-language-processing
+  credit:
+  - type: Website
+    properties:
+      text: Will Heaven
+      url: https://www.technologyreview.com/author/will-douglas-heaven/
+- name: app3
+  category: application
+  title: 'Introducing Tensorflow Recommenders'
+  image: /assets/img/mlutd16app3.png
+  imageCaption:
+    text: ''
+    href: https://blog.tensorflow.org/2020/09/introducing-tensorflow-recommenders.html?linkId=100309856
+  excerpt: >
+    A neural network with two sub-models that learn representations for queries and candidates separately [source](https://blog.tensorflow.org/2020/09/introducing-tensorflow-recommenders.html?linkId=100309856)
+
+    From recommending movies or restaurants to coordinating fashion accessories and highlighting blog posts and news articles, recommender systems are an important application of machine learning, surfacing new discoveries and helping users find what they love.
+
+    At Google, we have spent the last several years exploring new deep learning techniques to provide better recommendations through [multi-task learning](https://dl.acm.org/doi/10.1145/3219819.3220007), [reinforcement learning](https://research.google/pubs/pub47647/), [better user representations](https://research.google/pubs/pub47954/) and [fairness objectives](https://research.google/pubs/pub48107/). These and other advancements have allowed us to greatly improve our recommendations.
+
+    Today, we're excited to introduce [TensorFlow Recommenders (TFRS)](https://www.tensorflow.org/recommenders), an open-source TensorFlow package that makes building, evaluating, and serving sophisticated recommender models easy.
+  links:
+  - text: Article
+    href: https://blog.tensorflow.org/2020/09/introducing-tensorflow-recommenders.html?linkId=100309856
+  - text: Github
+    href: https://github.com/tensorflow/recommenders
+  - text: Tutorial
+    href: https://www.tensorflow.org/recommenders/examples/basic_retrieval#building_a_candidate_ann_index
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@Tensorflow'
+- name: the1
+  category: theory
+  title: 'Communication Techniques for Solving Technical Problems'
+  image: /assets/img/mlutd16the1.png
+  imageCaption:
+    text: Using split tracking helps to avoid circular issue tracking, which causes time inefficiencies in traversing towards the optimal solution
+    href: https://ansonwhitmer.com/four-communication-techniques-for-solving-technical-problems
+  excerpt: '
+    All data and engineering teams are faced with a constant inflow of organizational, technical, and interpersonal problems and the ability of your team to have business impact will depend largely on how effectively it can move towards optimal solutions to those problems.  In this article, I discuss _four communication techniques_ that improve the ability of a team to solve problems.
+    '
+  links:
+  - text: Article
+    href: https://ansonwhitmer.com/four-communication-techniques-for-solving-technical-problems
+  credit:
+  - type: Website
+    properties:
+      text: Anson Whitmer
+      href: https://ansonwhitmer.com/author/ansonwhitmer
+- name: the2
+  category: theory
+  title: 'On GPT-3: Meta-Learning, Scaling, Implications, And Deep Theory'
+  image: /assets/img/mlutd16the2.png
+  imageCaption:
+    text: GPT-3 continues to scale as predicted
+    href: https://www.gwern.net/newsletter/2020/05#
+  excerpt: '
+    GPT-3, announced by OpenAI in May 2020, is the largest neural network ever trained, by over an order of magnitude. Trained on Internet text data, it is the successor to GPT-2, which had surprised everyone by its natural language understanding & generation ability. To the surprise of most (including myself), this vast increase in size did not run into diminishing or negative returns, as many expected, but the benefits of scale continued to happen as forecasted by OpenAI. These benefits were not merely learning more facts & text than GPT-2, but qualitatively distinct & even more surprising in showing _meta-learning_: while GPT-2 learned how to do common natural language tasks like text summarization, GPT-3 instead learned how to follow directions and learn new tasks from a few examples. (As a result, GPT-3 outputs & interaction are more fascinating & human-like than GPT-2.)
+
+    While the immediate applications of GPT-3, like my poetry or humor writings, are nice, the short-term implications of GPT-3 are much more important.
+    '
+  links:
+  - text: Article
+    href: https://www.gwern.net/newsletter/2020/05#
+  credit:
+  - type: Website
+    properties:
+      text: gwern.net
+      href: https://www.gwern.net
+- name: the3
+  category: theory
+  title: 'Improving Sparse Training with RigL'
+  image: /assets/img/mlutd16the3.png
+  imageCaption:
+    text: The RigL training process
+    href: https://ai.googleblog.com/2020/09/improving-sparse-training-with-rigl.html
+  excerpt: '
+    In "[Rigging the Lottery: Making All Tickets Winners](https://proceedings.icml.cc/static/paper_files/icml/2020/287-Paper.pdf)”, presented at [ICML 2020](https://icml.cc/Conferences/2020), we introduce _RigL_, an algorithm for training sparse neural networks that uses a fixed parameter count and computational cost throughout training, without sacrificing accuracy relative to existing dense-to-sparse training methods. The algorithm identifies which neurons should be active during training, which helps the optimization process to utilize the most relevant connections and results in better sparse solutions. An example of this is shown below, where, during the training of a [multilayer perceptron](https://en.wikipedia.org/wiki/Multilayer_perceptron) (MLP) network on [MNIST](https://en.wikipedia.org/wiki/MNIST_database), our sparse network trained with RigL learns to focus on the center of the images, discarding the uninformative pixels from the edges. A [Tensorflow](https://www.tensorflow.org/) implementation of our method along with three other baselines ([SET](https://www.nature.com/articles/s41467-018-04316-3), [SNFS](https://arxiv.org/abs/1907.04840), [SNIP](https://arxiv.org/abs/1810.02340)) can be found at [github.com/google-research/rigl](http://github.com/google-research/rigl).
+    '
+  links:
+  - text: Article
+    href: https://ai.googleblog.com/2020/09/improving-sparse-training-with-rigl.html
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@googleai'

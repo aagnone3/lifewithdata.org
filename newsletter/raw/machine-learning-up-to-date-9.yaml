@@ -1,0 +1,133 @@
+article_num: '9'
+date: '2020-08-12'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Machine Learning on IoT Minus the T'
+  image: /assets/img/mlutd9app1.png
+  imageCaption:
+    text: An example simulation in Renode
+    href: https://blog.tensorflow.org/2020/06/running-and-testing-tf-lite-on-microcontrollers.html
+  excerpt: >
+    If you've been interested in the intersection of Machine Learning and the Internet of Things (IoT) but don't have the hardware and/or sensors to get started, here comes your catalyst. The Tensorflow Lite team has teamed up the Renode, a provider of open-source embedded hardware and sensor simulation, to show how easy it is to simulate and test ML IoT applications.
+
+    This could be very important moving forward. Just as containers led to the rapid rise of CI/CD, convenient simulation of embedded solutions may do the same for the ML on IoT space.
+  links:
+  - text: Article
+    href: https://blog.tensorflow.org/2020/06/running-and-testing-tf-lite-on-microcontrollers.html
+  - text: Code
+    href: https://github.com/antmicro/litex-vexriscv-tensorflow-lite-demo
+  - text: Renode
+    href: https://renode.io
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@mgielda'
+  - type: Twitter
+    properties:
+      handle: '@antmicro'
+- name: app2
+  category: application
+  title: 'Build a Discord Bot on Google Cloud'
+  image: /assets/img/mlutd9app2.png
+  imageCaption:
+    text: ''
+    href: https://daleonai.com/build-your-own-ai-moderator-bot-for-discord-with-the-perspective-api
+  excerpt: >
+    Dale Markowitz from Google's Making with ML made a really cool application that functions as a moderator for the [Discord](https://discord.com/) app. This one is really cool from multiple different angles: interfacing with a chat application, interfacing with an ML API, and actually delivering a quality project with user-friendly documentation 👏👏.
+  links:
+  - text: Article
+    href: https://daleonai.com/build-your-own-ai-moderator-bot-for-discord-with-the-perspective-api
+  - text: Code
+    href: https://github.com/google/making_with_ml/tree/master/discord_moderator
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@dalequark'
+- name: app3
+  category: application
+  title: 'Github Actions for MLOps'
+  image: /assets/img/mlutd9app3.png
+  imageCaption:
+    text: ''
+    href: https://github.blog/2020-06-17-using-github-actions-for-mlops-data-science
+  excerpt: '
+    In a great example of machine learning getting first-class recognition and support from software tooling, Hamel Husain wrote up some nice examples of how to leverage [Github Actions](https://docs.github.com/en/actions) to add MLOps patterns to your repos.
+
+    Propagating DevOps patterns into machine learning workflows is crucial for scaling ML to new heights and applications. Support for this endeavor from the "big guys" bodes very well for success here.
+    '
+  links:
+  - text: Article
+    href: https://github.blog/2020-06-17-using-github-actions-for-mlops-data-science
+  - text: Github PR Demo
+    href: https://github.com/machine-learning-apps/actions-ml-cicd/pull/34
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@HamelHusain'
+- name: the1
+  category: theory
+  title: 'Truly Unsupervised Image-to-Image Translation'
+  image: /assets/img/mlutd9the1.png
+  imageCaption:
+    text: ''
+    href: https://github.com/clovaai/tunit
+  excerpt: '
+    Researchers across Yonsei University, Clova AI Research, NAVER Corp, and EPFL have created a truly unsupervised image-to-image translation setup which does not require pair labels nor set-level domain labels. Being good boys and gals, they’ve also open-sourced their code and provided decent documentation on how to get started with their model.
+    '
+  links:
+  - text: Code
+    href: https://github.com/clovaai/tunit
+  - text: Paper
+    href: https://arxiv.org/pdf/2006.06500.pdf
+  credit:
+  - type: Text
+    properties:
+      text: Paper authors
+- name: the2
+  category: theory
+  title: 'SIREN: Period Activations for Neural Nets'
+  image: /assets/img/mlutd9the2.png
+  imageCaption:
+    text: ''
+    href: https://youtu.be/Q2fLWGBeaiI
+  excerpt: '
+    Researchers from Stanford’s Computational Imaging Lab showed in a recent paper how the use of periodic activation functions in neural networks can yield fantastic performance in applications requiring the representation of fine details in real-world signals. By using periodic activations for representation learning, the resulting network becomes a **SI**nusoidal **RE**presentation **N**etwork, or SIREN for short. Punny.
+
+    Author’s take: Coming from a principled background in signal processing for audio modeling, I love this. With new research like this and [differential DSP](https://www.lifewithdata.org/newsletter/mlutd8#diff-dsp), my worlds of DSP and machine learning are coming together in a beautiful way. It’s like that feeling when you introduce two friends that you know will get along really well.
+    '
+  links:
+  - text: Article
+    href: https://vsitzmann.github.io/siren/
+  - text: Paper
+    href: https://arxiv.org/abs/2006.09661
+  - text: Code
+    href: https://github.com/vsitzmann/siren
+  - text: Data
+    href: https://drive.google.com/drive/u/1/folders/1_iq__37-hw7FJOEUK1tX7mdp8SKB368K
+  - text: YouTube Overview
+    href: https://youtu.be/Q2fLWGBeaiI
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@vincesitzmann'
+- name: the3
+  category: theory
+  title: 'Gated Linear Networks'
+  image: /assets/img/mlutd9the3.png
+  imageCaption:
+    text: Comparative performance of the Gated Linear Network architecture
+    href: https://arxiv.org/pdf/1910.01526.pdf
+  excerpt: '
+    DeepMind published an interesting paper, introducing a backpropagation-free neural net architecture which can efficiently learn online. The base of the implementation is re-defining credit assignment as a mix of global and local credit, with the global credit enabling backprop-free learning.
+    '
+  links:
+  - text: Website
+    href: https://deepmind.com/research/publications/Gated-Linear-Networks
+  - text: Paper
+    href: https://arxiv.org/pdf/1910.01526.pdf
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DeepMindAI'

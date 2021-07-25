@@ -1,14 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { LocaleProvider } from './locale';
 import { MenuProvider } from './menu';
 
 // Wrapping the application with all Contexts
 const AppProvider = ({ children }) => (
-  <LocaleProvider>
-    <MenuProvider>{children}</MenuProvider>
-  </LocaleProvider>
+  <MenuProvider>{children}</MenuProvider>
 );
 
 AppProvider.propTypes = {

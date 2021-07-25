@@ -1,0 +1,229 @@
+article_num: '7'
+date: '2020-07-30'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Beating Atari Pong Without Backpropagation'
+  image: /assets/img/mlutd7app1.png
+  imageCaption:
+    text: OmegaNeo’s RL and Representation Learning Architecture
+    href: ''
+  excerpt: '
+    Ogma AI, which uses a multidisciplinary approach to AI technology development, released a neat demo recently. Building off their “OgmaNeo 2” model, they augmented it to train an RL agent without backpropagation. By releasing the backpropagation constraint, they were able to train an agent on a Raspberry Pi to perform quite well at Atari Pong (also on the Pi).
+    '
+  links:
+  - text: Article
+    href: https://ogma.ai/2020/03/beating-atari-pong-on-a-raspberry-pi-without-backpropagation
+  - text: Paper
+    href: https://github.com/ogmacorp/OgmaNeo2/blob/master/OgmaNeo2_Whitepaper_DRAFT.pdf
+  - text: Code
+    href: https://github.com/ogmacorp/OgmaNeo2
+  credit:
+  - type: Website
+    properties:
+      text: ogma.ai
+      href: https://ogma.ai
+- name: app2
+  category: application
+  title: 'The Disappearing People Project'
+  image: /assets/img/mlutd7app2.png
+  imageCaption:
+    text: Snippet from the demo video
+    href: The Disappearing People Project
+  excerpt: '
+    You’ll either love this one or start running for the hills in a tin foil hat. Codepen user @jasonmayes has a demo of real-time removal of video foreground in javascript. Translation: making Harry Potter’s invisibility cloak a reality.
+    '
+  links:
+  - text: Link
+    href: https://www.youtube.com/watch?v=0LqEuc32uTc
+  - text: The Codepen
+    href: https://codepen.io/jasonmayes/pen/GRJqgma
+  credit:
+  - type: Website
+    properties:
+      text: '@jasonmayes'
+      href: https://www.youtube.com/watch?v=0LqEuc32uTc
+- name: app3
+  category: application
+  title: 'Make a Renaissance Photo of Yourself'
+  image: /assets/img/mlutd7app3.png
+  imageCaption:
+    text: Make your own photo
+    href: https://ai-art.tokyo/en
+  excerpt: '
+    AI artist “Al Gahaku” has a nice web page where you can use his AI-powered Renaissance-style photo generator. Upload a photo that has a good line-of-sight on your face, and a few clicks later you’ll have something to gawk or laugh about.
+
+    I tried it out for myself. Not too shabby!
+    '
+  links:
+  - text: Link
+    href: https://ai-art.tokyo/en/
+  credit:
+  - type: Website
+    properties:
+      text: ai-art.tokyo 
+      href: https://ai-art.tokyo/en/
+- name: app4
+  category: theory
+  title: 'Overview of TinyML'
+  image: /assets/img/mlutd7app4.png
+  imageCaption:
+    text: null
+    href: null
+  excerpt: '
+    Pete Warden gave a nice talk on “tiny ML”, the focus on marrying machine learning with low-power hardware for IoT applications. Pete is the technical lead of the Tensorflow mobile and embedded team at Google, and was previously CTO of Jetpac, which was acquired in 2014.
+    '
+  links:
+  - text: Video
+    href: https://www.youtube.com/watch?v=soOM1F70Boc
+  - text: Slides
+    href: https://www.tinyml.org/wp-content/uploads/2020/03/tinyML_Talks_200331_Pete_Warden.pdf
+  - text: TinyML Forums
+    href: https://forums.tinyml.org
+  credit:
+  - type: Website
+    properties:
+      text: Pete Warden
+      href: https://youtu.be/soOM1F70Boc
+- name: the1
+  category: theory
+  title: 'Generating Music in the Waveform Domain'
+  image: /assets/img/mlutd7the1.png
+  imageCaption:
+    text: A block diagram of a time domain generative music model
+    href: https://benanne.github.io/2020/03/24/audio-generation.html
+  excerpt: '
+    Generative machine learning models have become extremely popular in the image and text domains. GPT-3, anyone? However, the same level of success has not been achieved yet in audio. To date, most techniques to achieve audio generation occur in the frequency domain, due to lower dimensionality. This comes at a cost, as re-synthesizing the generated frequency samples is non-trivial.
+
+    If you’ve ever wanted to delve more into the audio machine learning space, then Sander Dieleman’s article is for you. Grab a cup of your favorite beverage, soak in some sunlight, and let him take you on a tour of generative audio modeling in the time domain.
+    '
+  links:
+  - text: Article
+    href: https://benanne.github.io/2020/03/24/audio-generation.html
+  credit:
+  - type: Website
+    properties:
+      text: benanne.github.io
+      href: https://benanne.github.io
+- name: the2
+  category: theory
+  title: 'A Visual Guide to Evolutionary Strategies'
+  image: /assets/img/mlutd7the2.png
+  imageCaption:
+    text: A visual progression of OpenAI’s adaptation of REINFORCE-ES
+    href: https://blog.otoro.net/2017/10/29/visual-evolution-strategies
+  excerpt: '
+    David Ha (@hardmaru) put together a friendly yet informative explanation of evolutionary strategies as applied in various RL environments. What started with this article ended with me looking through several pages of his fantastic blog (linked below). I highly recommend it.
+    '
+  links:
+  - text: Article
+    href: http://blog.otoro.net/2017/10/29/visual-evolution-strategies
+  - text: Github
+    href: https://github.com/hardmaru/estool
+  - text: Blog
+    href: https://blog.otoro.net
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@hardmaru'
+- name: the3
+  category: theory
+  title: 'Connected Papers'
+  image: /assets/img/mlutd7the3.png
+  imageCaption:
+    text: ''
+    href: https://www.connectedpapers.com
+  excerpt: '
+    Self-attention papers, visualized.
+
+    A few years back, I had a great idea. I figured it would be fun to use the [arXiv](https://arxiv.org/) API to traverse paper citations, eventually creating a nice graph visualization of it all.
+
+    Well, It’s been done several times. The most recent one I’ve found, Connected Papers, is quite good.
+    '
+  links:
+  - text: Web Page
+    href: https://www.connectedpapers.com
+  - text: arXiv API
+    href: https://arxiv.org/help/api
+  credit:
+  - type: Website
+    properties:
+      text: connectedpapers
+      href: https://connectedpapers.com
+- name: ind1
+  category: industry
+  title: 'Why We Need DevOps for ML Data'
+  image: /assets/img/mlutd7ind1.png
+  imageCaption:
+    text: Several reasons, in one photo, why ML needs Ops
+    href: https://www.tecton.ai/blog/devops-ml-data
+  excerpt: '
+    Machine learning is, in a word, awesome.
+
+    Ask anyone _outside_ of the industry what they think about it, and they’ll paint you a picture of robots delivering nutrient-optimal food capsules to cyborg humans that are reviewing their day’s memories for optimal learning.
+
+    Ask anyone _inside_ the industry what they think, and it won’t take long until they are swearing about how they spend 80% of their time just trying to get the right data in front of their golden boy model.
+
+    We need help to scale this industry to deliver at the world’s scale. Software had similar issues not too long ago. The solution to those issues is now known as “DevOps”. Well, we’re doing it again for machine learning; you may have heard the phrase “MLOps”. It’s necessary, and it’s going to accelerate things.
+
+    I’m throwing the inspiration baton now to Tecton.ai, where they’ve further detailed why applying DevOps practices to ML is so crucial. Take the time to give it a good read.
+    '
+  links:
+  - text: Article
+    href: https://tecton.ai/blog/devops-ml-data
+  - text: Tecton.ai
+    href: https://www.tecton.ai
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@'
+- name: ind2
+  category: industry
+  title: 'How to Hire Machine Learning Engineers'
+  image: /assets/img/mlutd7ind2.png
+  imageCaption:
+    text: ''
+    href: https://www.topbots.com/guide-hiring-ai-machine-learning-engineers
+  excerpt: '
+    Have you shared the frustration of dealing with a recruiter who has no idea how to hire ML-related roles? Part of me hopes so, and part of me doesn’t wish it on my first enemy.
+
+    Recruiter: “Hey, I see that you have a really impressive resume of python and machine learning experience. I think you’d be a great fit for this Java role at an accounting firm I’m hiring for.”
+
+    [via GIPHY](https://giphy.com/gifs/blank-stare-bad-santa-dead-3o7aTLhoDUdLALkXBe)
+
+    There’s hope! [Kate Koidan](https://www.topbots.com/author/kate-koidan/) from TopBots wrote up several ways that recruiters can make sure they avoid earning blank, disappointing stares from quality candidates.
+    '
+  links:
+  - text: Article
+    href: https://www.topbots.com/guide-hiring-ai-machine-learning-engineers
+  - text: TopBots
+    href: https://www.topbots.com
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@topbots'
+- name: ind3
+  category: industry
+  title: 'Monitoring Machine Learning Models in Production'
+  image: /assets/img/mlutd7ind3.png
+  imageCaption:
+    text: cd4ml - Martin Fowler
+    href: https://martinfowler.com/articles/cd4ml.html
+  excerpt: '
+    At this point, you’ve taken Kate’s [advice](https://www.topbots.com/guide-hiring-ai-machine-learning-engineers) and you’ve successfully hired a high-impact machine learning engineer. However, your fun has only just begun! Once those models hit production, you better have all the processes and infrastructure in place to effectively and efficiently maintain it.
+
+    Christopher Samiullah has a very ingestible walkthrough of how you really should be going about this (the sad thing is a lot of companies simply aren’t. It hits the ground running in detail and doesn’t wait up, but he also has some courses for you to dig deeper with.
+    '
+  links:
+  - text: Article
+    href: https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models
+  - text: Chris's Blog
+    href: https://christophergs.com/archive
+  - text: Chris's Courses
+    href: https://christophergs.com/courses
+  credit:
+  - type: Website
+    properties:
+      text: christophergs.com
+      href: https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models

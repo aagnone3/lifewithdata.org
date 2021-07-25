@@ -1,0 +1,140 @@
+article_num: '30'
+date: '2020-01-06'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: Designing Data Science Tools at Spotify
+  image: /assets/img/mlutd30app1.png
+  imageCaption:
+    text: A workflow showing how feature changes would affect the user experience.
+    href: https://spotify.design/article/designing-data-science-tools-at-spotify
+  excerpt: "Up until recently, the tools Spotify\u2019s data scientists used every\
+    \ day were designed mostly by engineers. There was no one dedicated to looking\
+    \ at the problems data scientists were experiencing holistically. This meant that\
+    \ a lot of the time, the tools were strung together with inefficient hacky workarounds.\n\
+    Throughout the past year, a design team was created to rethink the existing stack\
+    \ and weed out these bad practices.\nI\u2019m a product designer in the R&D Community\
+    \ at Spotify, and I\u2019ve been working in the data tools space for about a year\
+    \ \u2014 which makes me one of the longest-serving designers in the team. I was\
+    \ brought in to pair up with engineering squads working on platforms and experiences\
+    \ for data scientists. Most recently, I helped to create and launch a new data\
+    \ science tool that would expedite insights production, and eliminate those old,\
+    \ inefficient ways of working.\n"
+  links:
+  - text: Article
+    href: https://spotify.design/article/designing-data-science-tools-at-spotify
+  - text: \[Article\] The AI Hierarchy of Needs
+    href: https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@siusabs'
+  - type: Twitter
+    properties:
+      handle: '@SpotifyEng'
+- name: app2
+  category: application
+  title: 'Machine learning is going real-time'
+  image: /assets/img/mlutd30app2.png
+  imageCaption:
+    text: A diagram showing the fundamental differences that EDAs have from request-response
+    href: https://huyenchip.com/2020/12/27/real-time-machine-learning.html
+  excerpt: '
+    After talking to machine learning and infrastructure engineers at major Internet companies across the US, Europe, and China, I noticed two groups of companies. One group has made significant investments (hundreds of millions of dollars) into infrastructure to allow real-time machine learning and has already seen returns on their investments. Another group still wonders if there’s value in real-time ML.
+
+    There seems to be little consensus on what real-time ML means, and there hasn’t been a lot of in-depth discussion on how it’s done in the industry. In this post, I want to share what I’ve learned after talking to about a dozen companies that are doing it.
+    '
+  links:
+  - text: Article
+    href: https://huyenchip.com/2020/12/27/real-time-machine-learning.html
+  - text: '\[Article\] Beyond Microservices: Streams, State, & Scalability'
+    href: https://www.infoq.com/presentations/microservices-streams-state-scalability
+  - text: '\[Subheading\] The MLOps race between the US and China'
+    href: https://huyenchip.com/2020/12/27/real-time-machine-learning.html#mlops_china_vs_us
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@chipro'
+- name: app3
+  category: application
+  title: 'Salesforce: Why We’re Investing (Even More) in Automation'
+  image: /assets/img/mlutd30app3.png
+  imageCaption:
+    text: MuleSoft Composer for Salesforce automatically brings in data from disparate apps
+    href: https://www.salesforce.com/news/stories/why-were-investing-in-automation
+  excerpt: '
+    The problem is: businesses aren’t equipped to move at this breakneck pace. Whether they can adapt, and do it quickly, will define success.
+
+    To make rapid progress towards their digital transformation goals, they need to increase employee speed of work to keep customers happy. That requires smart automation.
+
+    When automation is done right, it accelerates productivity and empowers employees. It also frees up humans to do the work they’re uniquely meant to do by taking away “the tedious, repetitive steps that are soul sucking, and that people don’t enjoy doing,” says Kucera. “Automation gives people the bandwidth and breathing room to do more interesting, more inspiring, and more valuable work that moves the business forward such as building customer relationships or making hard decisions on what to do next.”
+    '
+  links:
+  - text: Article
+    href: https://www.salesforce.com/news/stories/why-were-investing-in-automation
+  - text: '\[Article\] Why the Future of Automation is Human'
+    href: https://www.salesforce.com/blog/human-automation-future-employee-experience
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@sammyspiegs'
+  - type: Twitter
+    properties:
+      handle: '@salesforce'
+- name: the1
+  category: theory
+  title: 'Natural Language Processing Tutorials for Deep Learning'
+  image: /assets/img/mlutd30the1.png
+  imageCaption:
+    text: A snapshot of the current contents of the repo
+    href: https://github.com/graykode/nlp-tutorial
+  excerpt: '
+    `nlp-tutorial` is a tutorial repository for whoever is studying NLP(Natural Language Processing) using Pytorch or Tensorflow. Most of the models in NLP were implemented with less than 100 lines of code.
+    '
+  links:
+  - text: Article
+    href: https://github.com/graykode/nlp-tutorial
+  credit:
+  - type: Github
+    properties:
+      handle: '@graykode'
+- name: the2
+  category: theory
+  title: 'Knocking on Turing’s door: Quantum Computing and Machine Learning'
+  image: /assets/img/mlutd30the2.png
+  imageCaption:
+    text: The possible transformations applied on a qubit can be represented by rotations of a Bloch sphere
+    href: https://thegradient.pub/knocking-on-turings-door-quantum-computing-and-machine-learning
+  excerpt: '
+    Zeros and ones. Bits and pieces. Positives and negatives. And above all, switches, some on and others off. We have all grown accustomed to seeing and using a contemporary computer. Each year, industry behemoths like Intel, AMD, ARM, and NVIDIA, release the next generation of their top-of-the-line silicon, locking horns, and pushing the envelope of the traditional computers that we know today.
+
+    If we critically evaluate these multitudes of new multi-core CPUs, GPUs, and mammoth compute clusters hosted on the cloud, we will soon realize that faster processors do not necessarily result in increased computational power. Granted, the speed of computation has increased exponentially in the past decades, so has the amount of data we can handle and process. We can store and analyze exabytes of data on the internet, train deep learning models like OpenAI’s GPT-3, and enable the computational intelligence needed to defeat champions and grandmasters at complex games like Go and Chess. But have all these technological advances expanded what we can fundamentally do with computers beyond where we started out with? Or simply put, have we changed our traditional model of computing?
+    '
+  links:
+  - text: Article
+    href: https://thegradient.pub/knocking-on-turings-door-quantum-computing-and-machine-learning
+  credit:
+  - type: twitter
+    properties:
+      handle: '@AtherFawaz'
+  - type: twitter
+    properties:
+      handle: '@gradientpub'
+- name: the3
+  category: theory
+  title: 'Dataset Security for Machine Learning: Data Poisoning, Backdoor Attacks, and Defenses'
+  image: /assets/img/mlutd30the3.png
+  imageCaption:
+    text: A taxonomy of training-only data poisoning attacks
+    href: https://arxiv.org/abs/2012.10544
+  excerpt: '
+    As machine learning systems grow in scale, so do their training data requirements, forcing practitioners to automate and outsource the curation of training data in order to achieve state-of-the-art performance. The absence of trustworthy human supervision over the data collection process exposes organizations to security vulnerabilities; training data can be manipulated to control and degrade the downstream behaviors of learned models. The goal of this work is to systematically categorize and discuss a wide range of dataset vulnerabilities and exploits, approaches for defending against these threats, and an array of open problems in this space. In addition to describing various poisoning and backdoor threat models and the relationships among them, we develop their unified taxonomy.
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/abs/2012.10544
+  credit:
+  - type: Text
+    properties:
+      text: 'Paper authors'

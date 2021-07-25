@@ -1,0 +1,155 @@
+article_num: '11'
+date: '2020-08-26'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Reinforcement Learning (PPO) vs Super Mario'
+  image: /assets/img/mlutd11app1.png
+  imageCaption:
+    text: A PPO-trained RL agent showing Bowser who’s boss
+    href: https://github.com/uvipen/Super-mario-bros-PPO-pytorch
+  excerpt: '
+    Viet Nguyen on Github, who previously published RL agents trained on the A3C algorithm, has done the same for a PPO algorithm.
+    '
+  links:
+  - text: Super Mario PPO Code
+    href: https://github.com/uvipen/Super-mario-bros-PPO-pytorch
+  - text: Super Mario A3C Code
+    href: https://github.com/uvipen/Super-mario-bros-A3C-pytorch
+  - text: PPO Paper
+    href: https://arxiv.org/pdf/1707.06347.pdf
+  credit:
+  - type: Website
+    properties:
+      text: '@uvipen'
+      href: https://github.com/uvipen
+- name: app2
+  category: application
+  title: 'Deepmind RL Unplugged'
+  image: /assets/img/mlutd11app2.png
+  imageCaption:
+    text: An overview of some of the tasks that DeepMind’s RL Unplugged supports
+    href: https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged
+  excerpt: '
+      Deepmind has released RL Unplugged, which is a suite of benchmarks for offline reinforcement learning tasks. Similar to OpenAI Gym, The library gathers together several common RL tasks and provides a unified API on top of them. Below are additional considerations Deepmind took in selecting the supported tasks:
+
+      High dimensional action spaces, for example the locomotion humanoid domains, we have 56 dimensional actions.
+          
+      High dimensional observations.
+          
+      Partial observability, observations have egocentric vision.
+          
+      Difficulty of exploration, using states of the art algorithms and imitation to generate data for difficult environments.
+          
+      Real world challenges.
+    '
+  links:
+  - text: Article
+    href: https://deepmind.com/research/open-source/RL-Unplugged-An-Offline-RL-Benchmark-Suite
+  - text: Code
+    href: https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged
+  - text: Task Data on GCP
+    href: https://console.cloud.google.com/storage/browser/rl_unplugged
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DeepMind'
+- name: app3
+  category: application
+  title: 'Google AI Tops Nearest Neighbors Benchmark'
+  image: /assets/img/mlutd11app3.png
+  imageCaption:
+    text: A visual depiction of neural-network-based embeddings for MIPS
+    href: https://ai.googleblog.com/2020/07/announcing-scann-efficient-vector.html
+  excerpt: '
+    Google AI released a new algorithm for approximate nearest neighbors (ANN), which is superior to most on the glove-100 benchmark on [ann-benchmarks.com](https://ann-benchmarks.com). While some algorithms use trees or graphs to make the neighbor search more efficient, this algorithm uses the codebook algorithm, which compresses the data set into a fixed codebook size for future searches.
+    '
+  links:
+  - text: Article
+    href: https://ai.googleblog.com/2020/07/announcing-scann-efficient-vector.html
+  - text: Code
+    href: https://arxiv.org/abs/1908.10396
+  - text: ANN Benchmarks
+    href: http://ann-benchmarks.com
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@GoogleAI'
+- name: the1
+  category: theory
+  title: 'Marriage & Divorce -- By the Numbers'
+  image: /assets/img/mlutd11the1.png
+  imageCaption:
+    text: Divorces per 1,000 residents by country
+    href: https://ourworldindata.org/marriages-and-divorces
+  excerpt: '
+    The good folks over at Our World in Data published a nice report of trends in marriage and divorce over the past ~70 years. Here’s the executive summary below; head to the article for beautiful plots!
+
+    Marriages are becoming less common: in most countries the share of people getting married has fallen in recent decades. However, this is not true across all countries.
+        
+    Across most countries, people are marrying later in life.
+        
+    Cohabitation – couples living together who are not married – is becoming increasingly common.
+        
+    Single parenting is common and has increased in recent decades across the world.
+        
+    The Netherlands was the first country to legally recognise marriage for same-sex couples in 2000. Since then at least 30 countries have followed suit.
+        
+    There has been a general upward trend in divorce rates globally since the 1970s. But this pattern varies significantly country-to-country.
+        
+    Divorce rates are lower in younger cohorts.
+        
+    In rich countries with available data the average length of marriage before divorce has been relatively stable in recent decades, and in some cases it has even increased.
+    '
+  links:
+  - text: Article
+    href: https://ourworldindata.org/marriages-and-divorces
+  - text: Our World in Data
+    href: https://ourworldindata.org
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@eortizospina'
+  - type: Twitter
+    properties:
+      handle: '@MaxCRoser'
+- name: the2
+  category: theory
+  title: 'A Tour of End-to-end Machine Learning Systems'
+  image: /assets/img/mlutd11the2.png
+  imageCaption:
+    text: A diagram of the typical machine learning engineering flow
+    href: https://databaseline.tech/a-tour-of-end-to-end-ml-platforms
+  excerpt: '
+    Ian Hellstrom in the Databaseline blog wrote up a wonderful summary of end-to-end machine learning platforms. To those not part of an industry group trying to maintain ML systems in production, ML Engineering and ML Ops are indeed the hottest data-related job nowadays. Learning to bridge the gap between new research and product delivery will make you a very special employee (or business owner!).
+    '
+  links:
+  - text: Article
+    href: https://databaseline.tech/a-tour-of-end-to-end-ml-platforms
+  - text: The Databaseline Blog
+    href: https://databaseline.tech/
+  credit:
+  - type: Website
+    properties:
+      text: '@ianhellstrom'
+      href: https://www.linkedin.com/in/ianhellstrom
+- name: the3
+  category: theory
+  title: 'Geometric Deep Learning — Going Beyond Euclidean'
+  image: /assets/img/mlutd11the3.png
+  imageCaption:
+    text: Some visualized examples of non-euclidean data
+    href: https://miro.medium.com/max/1400/1*FQfqnaHAWpk_6oLdFfBphg.png
+  excerpt: '
+    Some Machine Learning greats teamed up for a recent paper, which provides an overview of the nascent area of "geometric deep learning”, which aims to extend the wide success of deep neural networks to non-euclidean data. Non-euclidean data includes social networks, sensor networks, biological networks, and mesh surfaces in computer graphics. Therefore, innovation in this space will yield great results for the world.
+    '
+  links:
+  - text: Paper
+    href: https://arxiv.org/pdf/1611.08097.pdf
+  - text: Geometric Deep Learning
+    href: http://geometricdeeplearning.com/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@ylecun'

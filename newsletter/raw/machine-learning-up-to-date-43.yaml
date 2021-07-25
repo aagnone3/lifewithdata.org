@@ -1,0 +1,152 @@
+article_num: '43'
+date: '2021-04-07'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'The Next Evolution of Data Catalogs: Data Discovery Platforms'
+  header: the-next-evolution-of-data-catalogs-data-discovery-platforms
+  image: /assets/img/mlutd43app1.png
+  imageCaption:
+    text: 'Photo by Tobias Fischer on Unsplash'
+    href: https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  excerpt: '
+    As someone who has spent 13 years in the weeds of data, I witnessed the rise of the “data-driven” trend first hand. Before starting and selling my first data startup, I spent time as a statistical analyst building sales forecasting models in R, a software engineer creating data transformation jobs, and a product manager running A/B tests and analyzing user behaviors. What all these roles had in common was that they gave me an understanding that the context of data — ****what it represents, how it was generated, when it was updated last, and the ways it could be joined with other datasets — is essential to maximizing the data’s potential and driving successful outcomes.
+
+    However, accessing and understanding the context of data is quite difficult. This is because the context of data is often tribal knowledge, meaning it lives only in the brains of the engineers or analysts who have worked with it recently. When other data consumers need to understand the context of data, the shortest path is to find someone who has used the data before and learn it from them.
+
+    That becomes a real problem as organizations scale. Finding the right person with the correct context takes time, and you might need to talk to multiple people in order to gather a full understanding of your data.
+
+    [... keep reading](https://blog.selectstar.com/the-evolution-of-data-catalogs-the-data-discovery-platform-1627772ca760?gi=495737f9d1bd)
+    '
+  links:
+  - text: Article
+    href: https://blog.selectstar.com/the-evolution-of-data-catalogs-the-data-discovery-platform-1627772ca760?gi=495737f9d1bd
+  - text: Select Star
+    href: https://selectstar.com/
+  credit:
+  - type: Medium
+    properties:
+      handle: '@shinjik'
+- name: app2
+  category: application
+  title: 'Machine Learning in production: the Booking.com approach'
+  header: machine-learning-in-production-the-booking-com-approach
+  image: /assets/img/mlutd43app2.png
+  imageCaption:
+    text: ''
+    href: https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70
+  excerpt: '
+    During the last five years, Machine Learning became a standard tool for Product Development in Booking.com. Today, it plays a role in every step of the customer journey. Hundreds of Data Scientists build, deploy and experiment with hundreds of machine-learned models exposing them to millions of users every day.
+
+    Supporting Machine Learning at scale involves many challenges, not least of which is shipping the models to production reliably, as fast as possible and accommodating a large variety of model types, invocation settings, libraries, data sources, monitoring approaches, etc. Inspired by one of the core values of Booking.com (*diversity gives us strength*), we built a system that supports a large variety of Machine Learning approaches. In this article we present RS, our Machine Learning *Productionization* System.
+
+    [... keep reading](https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70)
+    '
+  links:
+  - text: Article
+    href: https://booking.ai/https-booking-ai-machine-learning-production-3ee8fe943c70
+  - text: Booking.com
+    href: https://booking.com
+  credit:
+  - type: Medium
+    properties:
+      handle: '@lucas.bernardi'
+- name: app3
+  category: application
+  title: 'The Netflix Cosmos Platform'
+  header: the-netflix-cosmos-platform
+  image: /assets/img/mlutd43app3.png
+  imageCaption:
+    text: ''
+    href: https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad
+  excerpt: '
+    Cosmos is a computing platform that combines the best aspects of microservices with asynchronous workflows and serverless functions. Its sweet spot is applications that involve resource-intensive algorithms coordinated via complex, hierarchical workflows that last anywhere from minutes to years. It supports both high throughput services that consume hundreds of thousands of CPUs at a time, and latency-sensitive workloads where humans are waiting for the results of a computation.
+
+    This article will explain why we built Cosmos, how it works and share some of the things we have learned along the way.
+
+    [... keep reading](https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad)
+    '
+  links:
+  - text: Article
+    href: https://netflixtechblog.com/the-netflix-cosmos-platform-35c14d9351ad
+  - text: Plato
+    href: https://feathercast.apache.org/2019/09/13/serverless-multi-tenant-rule-engine-service-powered-by-apache-karaf-dmitry-vasilyev-saeid-mirzaei-george-ye/
+  - text: Stratum
+    href: https://plus.streamingtech.se/asset/4c87f560-0d1e-11ea-999c-eb3daca276d7_29C72F
+  - text: Apache Karaf
+    href: https://karaf.apache.org/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@NetflixEng'
+- name: the1
+  category: theory
+  title: 'Deep Learning for Phenotype Compound Screening'
+  header: deep-learning-for-phenotype-compound-screening
+  image: /assets/img/mlutd43the1.png
+  imageCaption:
+    text: ''
+    href: https://www.nature.com/articles/s42256-020-00285-9
+  excerpt: >
+    Phenotype-based compound screening has advantages over target-based drug discovery, but is unscalable and lacks understanding of mechanism of drug action. A chemical-induced gene expression profile provides a mechanistic signature of phenotypic response; however, the use of such data is limited by their sparseness, unreliability and relatively low throughput. Few methods can perform phenotype-based de novo chemical compound screening. Here we propose a mechanism-driven neural network-based method, DeepCE—which utilizes a graph neural network and multihead attention mechanism to model chemical substructure–gene and gene–gene associations—for predicting the differential gene expression profile perturbed by de novo chemicals. Moreover, we propose a novel data augmentation method that extracts useful information from unreliable experiments in the L1000 dataset. The experimental results show that DeepCE achieves superior performances to state-of-the-art methods. The effectiveness of gene expression profiles generated from DeepCE is further supported by comparing them with observed data for downstream classification tasks. To demonstrate the value of DeepCE, we apply it to drug repurposing of COVID-19 and generate novel lead compounds consistent with clinical evidence. DeepCE thus provides a potentially powerful framework for robust predictive modelling by utilizing noisy omics data and screening novel chemicals for the modulation of a systemic response to disease.
+
+    [... keep reading](https://www.nature.com/articles/s42256-020-00285-9)
+  links:
+  - text: Article
+    href: https://www.nature.com/articles/s42256-020-00285-9
+  - text: 'Dataset: github.com/njpipeorgan/L1000-bayesian'
+    href: https://github.com/njpipeorgan/L1000-bayesian
+  - text: 'Code: github.com/pth1993/DeepCE'
+    href: https://github.com/pth1993/DeepCE
+  credit:
+  - type: Text
+    properties:
+      text: Paper authors
+- name: the2
+  category: theory
+  title: 'Gradient-Guided Dynamic Efficient Adversarial Training Edit social preview'
+  header: gradient-guided-dynamic-efficient-adversarial-training-edit-social-preview
+  image: /assets/img/mlutd43the2.png
+  imageCaption:
+    text: ''
+    href: https://paperswithcode.com/paper/gradient-guided-dynamic-efficient-adversarial?from=n6
+  excerpt: >
+    Adversarial training is arguably an effective but time-consuming way to train robust deep neural networks that can withstand strong adversarial attacks. As a response to the inefficiency, we propose the Dynamic Efficient Adversarial Training (DEAT), which gradually increases the adversarial iteration during training. Moreover, we theoretically reveal that the connection of the lower bound of Lipschitz constant of a given network and the magnitude of its partial derivative towards adversarial examples. Supported by this theoretical finding, we utilize the gradient's magnitude to quantify the effectiveness of adversarial training and determine the timing to adjust the training procedure. This magnitude based strategy is computational friendly and easy to implement. It is especially suited for DEAT and can also be transplanted into a wide range of adversarial training methods. Our post-investigation suggests that maintaining the quality of the training adversarial examples at a certain level is essential to achieve efficient adversarial training, which may shed some light on future studies.
+
+    [... keep reading](https://paperswithcode.com/paper/gradient-guided-dynamic-efficient-adversarial?from=n6)
+  links:
+  - text: Article
+    href: https://paperswithcode.com/paper/gradient-guided-dynamic-efficient-adversarial?from=n6
+  - text: 'Code: locuslab /fast_adversarial'
+    href: https://github.com/locuslab/fast_adversarial
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@paperswithcode'
+- name: the3
+  category: theory
+  title: 'Dataset for Solving Mathematics Problems'
+  header: dataset-for-solving-mathematics-problems
+  image: /assets/img/mlutd43the3.png
+  imageCaption:
+    text: ''
+    href: https://paperswithcode.com/paper/measuring-mathematical-problem-solving-with
+  excerpt: '
+    Many intellectual endeavors require mathematical problem solving, but this skill remains beyond the capabilities of computers. To measure this ability in machine learning models, we introduce MATH, a new dataset of 12,500 challenging competition mathematics problems. Each problem in MATH has a full step-by-step solution which can be used to teach models to generate answer derivations and explanations. To facilitate future research and increase accuracy on MATH, we also contribute a large auxiliary pretraining dataset which helps teach models the fundamentals of mathematics. Even though we are able to increase accuracy on MATH, our results show that accuracy remains relatively low, even with enormous Transformer models. Moreover, we find that simply increasing budgets and model parameter counts will be impractical for achieving strong mathematical reasoning if scaling trends continue. While scaling Transformers is automatically solving most other text-based tasks, scaling is not currently solving MATH. To have more traction on mathematical problem solving we will likely need new algorithmic advancements from the broader research community.
+
+    [... keep reading](https://paperswithcode.com/paper/measuring-mathematical-problem-solving-with)
+    '
+  links:
+  - text: Article
+    href: https://paperswithcode.com/paper/measuring-mathematical-problem-solving-with
+  - text: Art of Problem Solving
+    href: https://artofproblemsolving.com/community/c3158_usa_contests
+  - text: Khan Exercises
+    href: https://github.com/Khan/khan-exercises/
+  - text: 'Code: hendrycks/math'
+    href: https://github.com/hendrycks/math
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@paperswithcode'

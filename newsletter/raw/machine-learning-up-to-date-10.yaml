@@ -1,0 +1,152 @@
+article_num: '10'
+date: '2020-08-19'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Google Colab Tips & Tricks'
+  image: /assets/img/mlutd10app1.png
+  imageCaption:
+    text: Code lookup, one of the many jewels in Google Colab
+    href: https://amitness.com/2020/06/google-colaboratory-tips
+  excerpt: >
+    Amit Chaudhary summarized some of the more useful aspects of Google's Colab notebook environment on his personal blog. Jupyter is great! There is also much more than it, though 🙂.
+
+    Between the Jupyter fundamentals and the GPU/TPU access provided, Colab is a fantastic way to democratize data science to the masses.
+  links:
+  - text: Article
+    href: https://amitness.com/2020/06/google-colaboratory-tips
+  - text: Colab Notebook
+    href: https://colab.research.google.com/notebooks/basic_features_overview.ipynb
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@amitness'
+- name: app2
+  category: application
+  title: 'Realtime Object Tracking at the Edge'
+  image: /assets/img/mlutd10app2.jpg
+  imageCaption:
+    text: A simple photo-diagram of the Jetson Nano object tracking setup
+    href: https://spectrum.ieee.org/geek-life/hands-on/quickly-embed-ai-into-your-projects-with-nvidias-jetson-nano
+  excerpt: >
+    Stephen Cass from [IEEE Spectrum](https://spectrum.ieee.org/) wrote up his experience using Nvidia's $100 [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) development kit. The kit was re-released this March with several upgrades, and is competition to Google's [Coral Dev AI](https://spectrum.ieee.org/geek-life/hands-on/the-coral-dev-board-takes-googles-ai-to-the-edge) kit. Long-time embedded tinkerers, relax: both support Raspberry Pi camera modules 🤓.
+
+    Have you used either of these? How was your experience? [Let me know](https://lifewithdata.org/contact).
+  links:
+  - text: Article
+    href: https://spectrum.ieee.org/geek-life/hands-on/quickly-embed-ai-into-your-projects-with-nvidias-jetson-nano
+  - text: Nvidia Jetson Nano
+    href: https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+  credit:
+  - type: Website
+    properties:
+      text: Stephen Cass
+      href: https://spectrum.ieee.org/author/cass-stephen
+- name: app3
+  category: application
+  title: 'AWS Copilot as Your CLI Helper for ECS'
+  image: /assets/img/mlutd10app3.png
+  imageCaption:
+    text: An example application deployment with ECS
+    href: https://aws.amazon.com/blogs/containers/introducing-aws-copilot
+  excerpt: >
+    Amazon's Elastic Container Service (ECS) has long been overshadowed by the almighty Kubernetes (and EKS, it's hosted version) for container orchestration in its cloud platform. However, ECS has found a solid supporter base for smaller-scale applications that have only one or a few containers. With the new copilot CLI, that process got a lot easier.
+
+    I'm working up a demo project of deploying an application on ECS with FastAPI, more to come soon!
+  links:
+  - text: Article
+    href: https://aws.amazon.com/blogs/containers/introducing-aws-copilot
+  - text: Amazon ECS
+    href: https://aws.amazon.com/ecs/getting-started
+  credit:
+  - type: Website
+    properties:
+      text: Stephen Cass
+      href: 'https://aws.amazon.com/ecs/getting-started'
+- name: ind1
+  category: theory
+  title: 'A Survey of Machine Learning Tooling in Industry'
+  image: /assets/img/mlutd10ind1.png
+  imageCaption:
+    text: The growth from 2008-2019 of machine learning industry tooling
+    href: https://huyenchip.com/2020/06/22/mlops.html
+  excerpt: '
+    Chip Huyen gathered a list of [over 200 tools](https://docs.google.com/spreadsheets/d/1OV0cMh2lmXMU9bK8qv1Kk0oWdc_Odmu2K5sOULS9hHQ/edit?usp=sharing) used in the machine learning tooling space and analyzed how this space has been developing over the past 12 years. Analyses like these are exactly what is needed to provide some more coordinated effort in the nascent space. Once we can consolidate onto a few tools and platforms that accomplish our typical workflows, we can iterate much faster.
+    '
+  links:
+  - text: Article
+    href: https://huyenchip.com/2020/06/22/mlops.html
+  - text: Chip's Blog
+    href: https://huyenchip.com
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@chipro'
+- name: ind2
+  category: theory
+  title: 'On Data Science vs Machine Learning Engineering'
+  image: /assets/img/mlutd10ind2.png
+  imageCaption:
+    text: An example deployment architecture for API load balancing with auto-scaling
+    href: https://towardsdatascience.com/why-we-built-a-platform-for-machine-learning-engineering-not-data-science-54004d5b6e95
+  excerpt: >
+    The distinction between data science and machine learning engineering is subtle, but important when it comes to software platform development. Platforms, as opposed to experiments and one-offs, must provide scale and flexibility to a wide range of tasks. Those that don't are...poor platforms.
+
+    Caleb Kaiser reflects on how [Cortex](https://github.com/cortexlabs/cortex) aimed directly for machine learning engineering as it built its open-source ML platform, which has caught on very nicely in the cloud ML space. After reading his well-written article, check out some of their example application deploys to see how smooth it is!
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/why-we-built-a-platform-for-machine-learning-engineering-not-data-science-54004d5b6e95
+  - text: Cortex Github
+    href: https://github.com/cortexlabs/cortex
+  - text: Cortex Website
+    href: https://www.cortex.dev
+  credit:
+  - type: Website
+    properties:
+      text: Cortex
+      href: 'https://www.cortex.dev'
+- name: the1
+  category: theory
+  title: 'Using Graph Neural Networks to Write Equations'
+  image: /assets/img/mlutd10the1.png
+  imageCaption:
+    text: The internal structure of the GNN used in some of the experiments
+    href: https://astroautomata.com/paper/symbolic-neural-nets
+  excerpt: '
+    Graph Neural Networks (GNN) have been increasing in adoption the past few years, especially in applications involving complex node interaction (read: physics). Miles Cranmer from Princeton published some riveting research which combines symbolic regression and deep learning to learn equation relationships among particles in a simulator.
+    '
+  links:
+  - text: Article
+    href: https://astroautomata.com/paper/symbolic-neural-nets
+  - text: Paper
+    href: https://arxiv.org/abs/2006.11287
+  - text: Explainer Video
+    href: https://youtu.be/LMb5tvW-UoQ
+  - text: Code
+    href: https://github.com/MilesCranmer/symbolic_deep_learning
+  - text: Colab Notebook
+    href: https://colab.research.google.com/github/MilesCranmer/symbolic_deep_learning/blob/master/GN_Demo_Colab.ipynb
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@MilesCranmer'
+- name: the2
+  category: theory
+  title: 'Shortcut Learning in Deep Neural Networks'
+  image: /assets/img/mlutd10the2.png
+  imageCaption:
+    text: Examples of unintended generalization in deep neural networks
+    href: https://thegradient.pub/shortcuts-neural-networks-love-to-cheat
+  excerpt: '
+    Dr. Jörn-Henrik Jacobsen from the University of Toronto published a paper and accompanying article detailing the class of phenomena known as "shortcut learning" in which neural networks learn to generalize in ways that are unintended by the human designer. This is the cause of the public outcries for fairness in machine learning model predictions as well as the confusion when otherwise super-human models are embarrassingly fooled by nothing more than Gaussian perturbation. There are several different types of ways in which this occurs, and this sub-field of research will continue to identify and address them. Time to plug those gaps!
+    '
+  links:
+  - text: Article
+    href: https://thegradient.pub/shortcuts-neural-networks-love-to-cheat
+  - text: Paper
+    href: https://arxiv.org/abs/2004.07780
+  credit:
+  - type: Text
+    properties:
+      text: Dr. Jörn-Henrik Jacobse

@@ -1,0 +1,113 @@
+article_num: '6'
+date: '2020-05-31'
+articles:
+- name: comp1
+  category: computing
+  featured: true
+  title: 'An Image API for...The Smithsonian!'
+  image: /assets/img/mlutd6comp1.png
+  imageCaption:
+    text: Apparently the government does public APIs now
+    href: http://edan.si.edu/openaccess/apidocs
+  excerpt: >
+    The Smithsonian Museum (there's actually eleven) has released an [open-access API](https://www.si.edu/openaccess/devtools) for metadata on all of its items. The repository is updated on a weekly basis, which is a pretty nice commitment for a largely non-technical organization. Even better, they have great [documentation](http://edan.si.edu/openaccess/apidocs/) for it as well!
+  links:
+  - text: Documentation
+    href: https://www.si.edu/openaccess/devtools
+  credit:
+  - type: Website
+    properties:
+      text: si.edu
+      href: https://www.si.edu
+- name: comp2
+  category: computing
+  title: 'Sentiment Analysis on iOS'
+  image: /assets/img/mlutd6comp2.png
+  imageCaption:
+    text: Sentiment Analysis on iOS
+    href: https://miro.medium.com/max/1400/1*ofjKwkD9FkOoffi3F2OdNQ.png
+  excerpt: '
+    [Omar M’Haimdat](https://heartbeat.fritz.ai/@omarmhaimdat made a writeup on [Medium](https://heartbeat.fritz.ai/sentiment-analysis-ios-application-using-hugging-faces-transformers-library-7ae4df1b3150) about a cool Sentiment Analysis iOS app he made. The writeup also includes good backstory information on transformers, NLP, and the Hugging Face. Check out his [Github repository](https://github.com/omarmhaimdat/bert-ios-application) and an accompanying [Colab notebook](https://colab.research.google.com/drive/1eRK9Wg03QVulMUnDCHLo37Fnx2qiBneK#scrollTo=FgMGudNpgAGZ) for training the model.
+
+    Aside from reading this article, I also highly recommend checking out the Hugging Face [transformers library](https://github.com/huggingface/transformers). It has state of the art Tensorflow and PyTorch NLP models ready to go.
+    '
+  links:
+  - text: Article
+    href: https://heartbeat.fritz.ai/sentiment-analysis-ios-application-using-hugging-faces-transformers-library-7ae4df1b3150
+  - text: Colab Notebook
+    href: https://colab.research.google.com/drive/1eRK9Wg03QVulMUnDCHLo37Fnx2qiBneK#scrollTo=FgMGudNpgAGZ
+  - text: Github huggingface/transformers
+    href: https://github.com/huggingface/transformers
+  credit:
+  - type: Medium
+    properties:
+      handle: '@omarmhaimdat'
+- name: comp3
+  category: computing
+  title: 'DeepMind Releases JAX-Based Libraries'
+  image: /assets/img/mlutd6comp3.png
+  imageCaption:
+    text: A screenshot of the documentation for the Haiku software library from DeepMind
+    href: https://dm-haiku.readthedocs.io/en/latest
+  excerpt: >
+    You're probably been hearing more and more about the JAX library for neural network primitives (and for good reason). You'll be happy to hear, then, that DeepMind has released some new libraries for building on top of JAX. One is [Haiku](https://github.com/deepmind/dm-haiku), which the team aptly brands as "[Sonnet](https://github.com/deepmind/sonnet) for JAX". This library aims to be a general-purpose solution for building neural networks from the JAX primitives. The other library is [RLax](https://github.com/deepmind/rlax), pronounced "relax". As you can probably guess, this library caters specifically to training reinforcement learning agents.
+  links:
+  - text: Docs
+    href: https://dm-haiku.readthedocs.io/en/latest
+  credit:
+  - type: Twitter
+    properties:
+      text: Deepmind
+      handle: '@DeepMindAI'
+- name: biz1
+  category: business
+  title: 'StichFix Explains its Innovative Structure'
+  image: /assets/img/mlutd6biz1.png
+  imageCaption:
+    text: Stitch Fix's Data Science Business Structure
+    href: https://cultivating-algos.stitchfix.com
+  excerpt: >
+    Stitch Fix takes a brand new approach on Data Science in business [source](https://cultivating-algos.stitchfix.com/)
+
+    I've always thought Stich Fix has a cool product, delivering personalized clothing choices that just make sense. I now love them even more, after reading [their article](https://cultivating-algos.stitchfix.com/) about how they structure the business. The article details how they truly treat data science as a first-class citizen. I mean this literally, too -- the Data Science department is equated with Marketing, Sales, etc. They have a Chief Algorithms Officer. This is an awesome effort, and I want to see more examples of companies trying similar things. Let me know if you find any!
+  links:
+  - text: Article
+    href: https://cultivating-algos.stitchfix.com
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@stitchfix'
+- name: biz2
+  category: business
+  title: 'Cibo Express Opens First Auto Checkout'
+  image: /assets/img/mlutd6biz2.jpg
+  imageCaption:
+    text: A picture of CIBO Express Gourmet Market
+    href: https://mma.prnewswire.com/media/1122236/OTG___CIBO_Express_Gourmet_Markets.jpg?p=publish&w=950
+  excerpt: >
+    Flying into Newark Liberty Airport anytime soon? If so, head over to the Cibo Express in Terminal C. You'll find that the store is operating the [first retail implementation](https://www.prnewswire.com/news-releases/otg-to-use-amazons-just-walk-out-technology-to-bring-checkout-free-shopping-to-airports-301021135.html) of Amazon's new [no-checkout purchase experience](https://venturebeat.com/2020/03/09/amazon-to-sell-its-automated-checkout-technology-to-third-party-retailers/). This comes just days after Amazon announced the retailing of its disruptive service.
+  links:
+  - text: Article
+    href: https://mma.prnewswire.com/media/1122236/OTG___CIBO_Express_Gourmet_Markets.jpg?p=publish&w=950
+  credit:
+  - type: Text
+    properties:
+      text: Newswire
+      href: https://prnewswire.com
+- name: viz1
+  category: visualization
+  title: 'Machine Learning for Everyone'
+  image: /assets/img/mlutd6viz1.jpg
+  imageCaption:
+    text: A comic about a polarity of how people perceive machine learning
+    href: https://i.vas3k.ru/7vu.jpg
+  excerpt: >
+    Machine Learning theory can get complicated; there's no two ways about it. Every once in a while, an article comes along that presents some of the details so clearly, and it feels so good. [This](https://vas3k.com/blog/machine_learning/) is one of them. Share this guy off to those struggling to become proficient, to help them fill the gaps with intuitive explanations. Then, share it to everyone else anyways, since it's entertaining and a nice review.
+  links:
+  - text: Article
+    href: https://vas3k.com/blog/machine_learning/
+  credit:
+  - type: Website
+    properties:
+      text: vas3k
+      href: https://i.vas3k.ru

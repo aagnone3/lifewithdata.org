@@ -1,0 +1,127 @@
+article_num: '27'
+date: '2020-12-16'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Bulldozer: Batch Data Moving from Data Warehouse to Online Key-Value Stores'
+  image: /assets/img/mlutd27app1.png
+  imageCaption:
+    text: Moving data with Bulldozer
+    href: https://netflixtechblog.com/bulldozer-batch-data-moving-from-data-warehouse-to-online-key-value-stores-41bac13863f8
+  excerpt: '
+    At Netflix, we also heavily embrace a microservice architecture that emphasizes separation of concerns. Many of these services often have the requirement to do a fast lookup for this fine-grained data which is generated periodically. For example, in order to enhance our user experience, one online application fetches subscribers’ preferences data to recommend movies and TV shows. The data warehouse is not designed to serve point requests from microservices with low latency. Therefore, we must efficiently move data from the data warehouse to a global, low-latency and highly-reliable key-value store. For how our machine learning recommendation systems leverage our key-value stores, please see more details on this presentation.
+    '
+  links:
+  - text: Article
+    href: https://netflixtechblog.com/bulldozer-batch-data-moving-from-data-warehouse-to-online-key-value-stores-41bac13863f8
+  - text: \[Presentation\] Machine Learning Meets Databases
+    href: https://conf.slac.stanford.edu/xldb2018/sites/xldb2018.conf.slac.stanford.edu/files/Tues_11.15_IoannisPapa-Netflix-2018.pdf
+  - text: \[Blog\] Notebook Innovation at Netflix
+    href: https://netflixtechblog.com/notebook-innovation-591ee3221233
+  credit:
+  - type: Medium
+    properties:
+      handle: '@NetflixTechBlog'
+- name: app2
+  category: application
+  title: '130 Machine Learning Projects Solved and Explained'
+  image: /assets/img/mlutd27app2.png
+  imageCaption:
+    text: ''
+    href: https://medium.com/the-innovation/130-machine-learning-projects-solved-and-explained-605d188fb392
+  excerpt: '
+    Practice your skills in Data Science Projects with Python, by learning and then trying all these hands-on, interactive projects, that I have posted for you. By learning and trying these projects on Data Science you will understand about the practical environment where you follow instructions in the real-time.
+    '
+  links:
+  - text: Article
+    href: https://medium.com/the-innovation/130-machine-learning-projects-solved-and-explained-605d188fb392
+  - text: Build the TikTok Algorithm
+    href: https://thecleverprogrammer.com/2020/09/26/tiktok-algorithm-with-machine-learning
+  - text: Detect Hate Speech
+    href: https://thecleverprogrammer.com/2020/08/19/hate-speech-detection-model
+  - text: Create an Audiobook
+    href: https://thecleverprogrammer.com/2020/10/22/create-an-audiobook-with-python
+  credit:
+  - type: Medium
+    properties:
+      handle: '@amankharwal'
+- name: app3
+  category: application
+  title: 'Data Lake vs. Warehouse: How to Choose the Right Solution for Your Stack'
+  image: /assets/img/mlutd27app3.png
+  imageCaption:
+    text: Common Data Lake Technologies & Vendors
+    href: https://towardsdatascience.com/how-to-build-your-data-platform-choosing-a-cloud-data-warehouse-3de66862f41c
+  excerpt: '
+    Twenty years ago, your [data warehouse](https://en.wikipedia.org/wiki/Data_warehouse) probably wouldn’t have been voted hottest technology on the block. These bastions of the office basement were long associated with siloed data workflows, on-premises computing clusters, and a limited set of business-related tasks (i.e., processing payroll, and storing internal documents).
+
+    Now, with the rise of data-driven analytics, cross-functional data teams, and most importantly, the cloud, the phrase “cloud data warehouse” is nearly analogous with agility and innovation. In many ways, the cloud makes data easier to manage, more accessible to a wider variety of users, and far faster to process. Companies _literally_ can’t use data in a meaningful way without leveraging a cloud data warehousing solution (or two or three… or more).
+    '
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/how-to-build-your-data-platform-choosing-a-cloud-data-warehouse-3de66862f41c
+  - text: \[Blog\] Data Platform Series
+    href: https://www.montecarlodata.com/how-to-build-your-data-platform-like-a-product
+  credit:
+  - type: Medium
+    properties:
+      handle: '@barrmoses'
+- name: the1
+  category: theory
+  title: 'Pay Attention when Required'
+  image: /assets/img/mlutd27the1.png
+  imageCaption:
+    text: Caption in Image
+    href: https://arxiv.org/pdf/2009.04534.pdf
+  excerpt: '
+    Transformer-based models consist of interleaved feed-forward blocks - that capture content meaning, and relatively more expensive self-attention blocks - that capture context meaning. In this paper, we explored trade-offs and ordering of the blocks to improve upon the current Transformer architecture and proposed PAR Transformer. It needs 35% lower compute time than Transformer-XL achieved by replacing ~63% of the self-attention blocks with feed-forward blocks, and retains the perplexity on WikiText-103 language modelling benchmark. We further validated our results on text8 and enwiki8 datasets, as well as on the BERT model.
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2009.04534.pdf
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@nvidia'
+- name: the2
+  category: theory
+  title: 'Image Representations Learned With Unsupervised Pre-Training Contain Human-like Biases'
+  image: /assets/img/mlutd27the2.png
+  imageCaption:
+    text: Example \[...\] which measures the differential association between flowers vs. insects and pleasantness vs. unpleasantness
+    href: null
+  excerpt: '
+    Recent advances in machine learning leverage massive datasets of unlabeled images from the web to learn general-purpose image representations for tasks from image classification to face recognition. But do unsupervised computer vision models automatically learn implicit patterns and embed social biases that could have harmful downstream effects? For the first time, we develop a novel method for quantifying biased associations between representations of social concepts and attributes in images. We find that state-of-the-art unsupervised models trained on ImageNet, a popular benchmark image dataset curated from internet images, automatically learn racial, gender, and intersectional biases. We replicate 8 of 15 documented human biases from social psychology, from the innocuous, as with insects and flowers, to the potentially harmful, as with race and gender. For the first time in the image domain, we replicate human-like biases about skin-tone and weight. Our results also closely match three hypotheses about intersectional bias from social psychology. When compared with statistical patterns in online image datasets, our findings suggest that machine learning models can automatically learn bias from the way people are stereotypically portrayed on the web.
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2010.15052.pdf
+  - text: \[Github\] ryansteed/ieat
+    href: https://github.com/ryansteed/ieat
+  credit:
+  - type: Twitter
+    properties:
+      text: '@ryanbsteed'
+  - type: Twitter
+    properties:
+      text: '@aylin_cim'
+- name: the3
+  category: theory
+  title: 'Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images'
+  image: /assets/img/mlutd27the3.png
+  imageCaption:
+    text: Some model samples and a viz of the generation
+    href: https://github.com/openai/vdvae
+  excerpt: '
+    We present a hierarchical VAE that, for the first time, outperforms the PixelCNN in log-likelihood on all natural image benchmarks. We begin by observing that VAEs can actually implement autoregressive models, and other, more efficient generative models, if made sufficiently deep. Despite this, autoregressive models have traditionally outperformed VAEs. We test if insufficient depth explains the performance gap by by scaling a VAE to greater stochastic depth than previously explored and evaluating it on CIFAR-10, ImageNet, and FFHQ. We find that, in comparison to the PixelCNN, these very deep VAEs achieve higher likelihoods, use fewer parameters, generate samples thousands of times faster, and are more easily applied to high-resolution images. We visualize the generative process and show the VAEs learn efficient hierarchical visual representations
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2011.10650v1.pdf
+  - text: \[Github\] openai/vdvae
+    href: https://github.com/openai/vdvae
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@openai'

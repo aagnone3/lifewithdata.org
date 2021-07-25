@@ -1,0 +1,130 @@
+article_num: '13'
+date: '2020-09-09'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'FastAI Version 2'
+  image: /assets/img/mlutd13app1.png
+  imageCaption:
+    text: A block diagram of the fastai v2 framework
+    href: https://www.fast.ai/2020/08/21/fastai2-launch
+  excerpt: '
+    FastAI, the hugely popular software library for hand-on ML learning and experimentation, has released its upgraded version. The library’s core is now based on PyTorch, and features many improvements, which are quoted below:
+
+    - A new type dispatch system for Python along with a semantic type hierarchy for tensors  
+    - A GPU-optimized computer vision library which can be extended in pure Python  
+    - An optimizer which refactors out the common functionality of modern optimizers into two basic pieces, allowing optimization algorithms to be implemented in 45 lines of code  
+    - A novel 2-way callback system that can access any part of the data, model, or optimizer and change it at any point during training  
+    - A new data block API  
+    - And much more...
+    '
+  links:
+  - text: Article
+    href: https://www.fast.ai/2020/08/21/fastai2-launch
+  - text: 'Course: Practical Deep Learning for Coders'
+    href: https://www.fast.ai/2020/08/21/fastai2-launch/#practical-deep-learning-for-coders-the-course
+  - text: 'Book: Deep Learning for Coders'
+    href: https://www.fast.ai/2020/08/21/fastai2-launch/#deep-learning-for-coders-with-fastai-and-pytorch-the-book
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@jeremyphoward'
+- name: app2
+  category: application
+  title: 'Easy Crawling of Government Data'
+  image: /assets/img/mlutd13app2.png
+  imageCaption:
+    text: A preview of the govinfo website
+    href: https://www.govinfo.gov
+  excerpt: '
+    Web crawling doesn’t always have to be an error-prone and iterative effort. Sometimes, large websites make it easy for you to programmatically navigate their sites, in the form of sitemaps. The govinfo website has done just this, creating easy access to many different data sources.
+    '
+  links:
+  - text: Sitemaps
+    href: https://www.govinfo.gov/sitemaps
+  - text: API
+    href: https://api.govinfo.gov/docs/
+  credit:
+  - type: Website
+    properties:
+      text: 'govingo'
+      href: https://www.govinfo.gov
+- name: app3
+  category: application
+  title: 'GAO Report: US Airport Facial Recognition Has Issues'
+  image: /assets/img/mlutd13app3.png
+  imageCaption:
+    text: Annie Otzen/Getty Images
+    href: ''
+  excerpt: '
+    A report by the US Government Accountability Office (GAO) has found several issues with the deployment of facial recognition systems across the US. Issues found include stale information, incomplete information, and demographic bias. While it’s easy to simply scoff and blame, these issues represent some of the fundamental challenges in deploying and sustaining ML applications. I expect that the next decade will have a large focus on this area of ML, while the theoretical side surges on.
+    '
+  links:
+  - text: Article
+    href: https://venturebeat.com/2020/09/03/gao-audit-finds-pervasive-problems-with-u-s-airport-facial-recognition-program
+  - text: Report
+    href: https://www.gao.gov/assets/710/709107.pdf
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@Kyle_L_Wiggers'
+- name: the1
+  category: theory
+  title: 'Alex Irpan: AI Timelines Have Sped Up'
+  image: /assets/img/mlutd13the1.png
+  imageCaption:
+    text: Trend lines for image classification (left) and language modeling (right)
+    href: https://arxiv.org/abs/1712.00409
+  excerpt: '
+    Alex Irpan from Berkeley made a popular 2015 post about some predicted timelines on the path towards artificial general intelligence (AGI). He’s now updated those predictions, in favor of shorter timelines. He also discusses reasons why those predictions have changed, and additional considerations.
+    '
+  links:
+  - text: Article
+    href: ttps://www.alexirpan.com/2020/08/18/ai-timelines.html
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@alexirpan'
+- name: the2
+  category: theory
+  title: 'Self-organizing Autonomous Vehicles Improve Traffic Flow'
+  image: /assets/img/mlutd13the2.png
+  imageCaption:
+    text: A snapshot of the simulation performed in the experiment
+    href: https://phys.org/news/2020-09-small-self-organizing-autonomous-vehicles-significantly
+  excerpt: '
+    An experiment conducted by researchers at Bar-Ilan University has shown that self-organizing autonomous vehicles (AVs) significantly improve traffic flow, even when largely outnumbered by human drivers. This is a very encouraging result, as there are two core issues with respect to the prospect of AV integration:
+
+    1) How well can AVs interact with human drivers?
+
+    2) How well can AVs interact with each other and collaborate toward a common goal? (cough game theory cough)
+    '
+  links:
+  - text: Paper
+    href: https://phys.org/news/2020-09-small-self-organizing-autonomous-vehicles-significantly
+  credit:
+  - type: Website
+    properties:
+      text: phys.org
+      href: https://phys.org
+- name: the3
+  category: theory
+  title: 'OpenAI’s language generator has no idea what it’s talking about'
+  image: /assets/img/mlutd13the3.png
+  imageCaption:
+    text: 'MS TECH | GETTY. UNSPLASH'
+    href: https://www.technologyreview.com/2020/08/22/1007539/gpt3-openai-language-generator-artificial-intelligence-ai-opinion
+  excerpt: '
+    In a breath of very fresh and long-needed air, Gary Marcus and Ernest Davis wrote an article which does a fantastic job at stifling the hype associated with GPT3. Articles like this are essential in the modern world, where uninformed media can greatly affect the public’s perception of esoteric things. We need to stay grounded in the ML community and be keenly aware of the achievements and areas for improvement in the field.
+    '
+  links:
+  - text: Article
+    href: https://www.technologyreview.com/2020/08/22/1007539/gpt3-openai-language-generator-artificial-intelligence-ai-opinion
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@GaryMarcus'
+  - type: Twitter
+    properties:
+      handle: '@ErnestDavis'

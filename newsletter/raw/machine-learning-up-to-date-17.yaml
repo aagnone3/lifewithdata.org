@@ -1,0 +1,131 @@
+article_num: '17'
+date: '2020-10-07'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'The C3.ai COVID-19 Grand Challenge'
+  image: /assets/img/mlutd17app1.png
+  imageCaption:
+    text: A contrived visualization of virus transmission
+    href: https://c3.ai//wp-content/uploads/2020/08/grand-challenge-world.jpg
+  excerpt: '
+    C3.ai invites developers, data scientists, students, and creative minds around the world to build world-class data science techniques and strategies on top of solid, wide-reaching data that drive smart and safe decision making. C3.ai is looking for meaningful data-driven insights to inform decision makers and change how the world is fighting this pandemic.
+
+    In the C3.ai COVID-19 Grand Challenge, participants will use the C3.ai COVID-19 Data Lake as one of the key sources of data to produce new and innovative data science projects that help combat the COVID-19 pandemic. It’s time to act. Join the fight against COVID-19 and build for a better tomorrow.
+    '
+  links:
+  - text: Website
+    href: https://c3.ai/c3-ai-covid-19-grand-challenge
+  - text: Rules & Eligibility
+    href: https://c3.ai/c3-ai-covid-19-grand-challenge/rules-and-eligibility
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@C3_AI'
+- name: app2
+  category: application
+  title: 'Towards ML Engineering: A Brief History Of TensorFlow Extended (TFX)'
+  image: /assets/img/mlutd17app2.png
+  imageCaption:
+    text: A modified version of the TFX logo
+    href: https://blog.tensorflow.org/2020/09/brief-history-of-tensorflow-extended-tfx.html
+  excerpt: '
+    In this article we will give a whirlwind tour of [Sibyl](https://www.datanami.com/2014/07/17/inside-sibyl-googles-massively-parallel-machine-learning-platform/) and [TensorFlow Extended](https://tensorflow.org/tfx) (TFX), two successive end-to-end (E2E) ML platforms at Alphabet. We will share the lessons learned from over a decade of applied ML built on these platforms, explain both their similarities and their differences, and expand on the shifts (both mental and technical) that helped us on our journey. In addition, we will highlight some of the capabilities of TFX that help realize several aspects of ML Engineering. We argue that in order to unlock the gains ML can bring, organizations should advance the maturity of their ML teams by investing in robust ML infrastructure and promoting ML Engineering education. We also recommend that before focusing on cutting-edge ML modeling techniques, product leaders should invest more time in adopting interoperable ML platforms for their organizations. In closing, we will also share a glimpse into the future of TFX.
+    '
+  links:
+  - text: Article
+    href: https://blog.tensorflow.org/2020/09/brief-history-of-tensorflow-extended-tfx.html
+  - text: Github
+    href: https://github.com/tensorflow/tfx
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@Tensorflow'
+- name: app3
+  category: application
+  title: 'Microsoft Releases Coax, a Modular Reinforcement Learning Library'
+  image: /assets/img/mlutd17app3.png
+  imageCaption:
+    text: A quick look at coax’s documentation
+    href: https://raw.githubusercontent.com/microsoft/coax/main/doc/_static/img/readthedocs.png
+  excerpt: '
+    coax is a modular Reinforcement Learning (RL) Python package for solving [OpenAI Gym](https://gym.openai.com/ "(Opens in new window)") environments with [JAX](https://jax.readthedocs.io/ "(Opens in new window)")\-based function approximators (using [Haiku](https://dm-haiku.readthedocs.io/ "(Opens in new window)")).
+
+    The primary thing that sets coax apart from other packages is that is designed to align with the core RL concepts, not with the high-level concept of an _agent_. This makes coax more modular and user-friendly for RL researchers and practitioners.
+
+    Other RL frameworks often hide structure that you (the RL practitioner) are interested in. Most notably, the neural network architecture of the function approximators is often hidden from you. In coax, the network architecture takes center stage. You are in charge of defining their own forward-pass function.
+
+    Another bit of structure that other RL frameworks hide from you is the main training loop. This makes it hard to take an algorithm from paper to code. The design of coax is agnostic of the details of your training loop. You are in charge of how and when you update your function approximators.
+    '
+  links:
+  - text: Article
+    href: https://www.microsoft.com/en-us/research/project/coax-rl
+  - text: Github
+    href: https://github.com/microsoft/coax
+  - text: Documentation
+    href: https://coax.readthedocs.io
+  - text: OpenAI Gym
+    href: https://gym.openai.com
+  - text: JAX
+    href: https://jax.readthedocs.io
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@krisholsheimer'
+- name: the1
+  category: theory
+  title: 'Animations of Neural Networks Transforming Data'
+  image: /assets/img/mlutd17the1.png
+  imageCaption:
+    text: An animation of a neural network transforming a concentric circle dataset
+    href: https://towardsdatascience.com/animations-of-neural-networks-transforming-data-42005e8fffd9
+  excerpt: '
+    In this post on Medium, Angela Shi makes intuitive visualizations of the hidden layer of a neural network in order to better understand the most basics of neural net transformations. Take note of her tool usage to build off of them and create more complex visualizations!
+    '
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/animations-of-neural-networks-transforming-data-42005e8fffd9
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@angela.shi'
+- name: the2
+  category: theory
+  title: 'AI planners in Minecraft could help machines design better cities'
+  image: /assets/img/mlutd17the2.png
+  imageCaption:
+    text: Source
+    href: https://www.technologyreview.com/2020/09/22/1008675/ai-planners-minecraft-urban-design-healthier-happier-cities
+  excerpt: '
+    A dozen or so steep-roofed buildings cling to the edges of an open-pit mine. High above them, on top of an enormous rock arch, sits an inaccessible house. Elsewhere, a railway on stilts circles a group of multicolored tower blocks. Ornate pagodas decorate a large paved plaza. And a lone windmill turns on an island, surrounded by square pigs. This is Minecraft city-building, AI style.
+    '
+  links:
+  - text: Article
+    href: https://www.technologyreview.com/2020/09/22/1008675/ai-planners-minecraft-urban-design-healthier-happier-cities
+  credit:
+  - type: Website
+    properties:
+      text: Will Douglas Heaven
+      href: https://www.technologyreview.com/author/will-douglas-heaven/
+- name: the3
+  category: theory
+  title: 'How a Memory Quirk of the Human Brain Can Galvanize AI'
+  image: /assets/img/mlutd17the3.jpg
+  imageCaption:
+    text: 'Credit: Michal Jarmoluk'
+    href: https://pixabay.com/users/jarmoluk-143740
+  excerpt: '
+    Even as toddlers we’re good at inferences. Take a two-year-old that first learns to recognize a dog and a cat at home, then a horse and a sheep in a petting zoo. The kid will then also be able to tell apart a dog and a sheep, even if he can’t yet articulate their differences.
+
+    This ability comes so naturally to us it belies the complexity of the brain’s data-crunching processes under the hood. To make the logical leap, the child first needs to remember distinctions between his family pets. When confronted with new categories—farm animals—his neural circuits call upon those past remembrances, and seamlessly incorporate those memories with new learnings to update his mental model of the world.
+
+    Not so simple, eh?
+    '
+  links:
+  - text: Article
+    href: https://singularityhub.com/2020/09/28/how-a-memory-quirk-of-the-human-brain-can-galvanize-ai
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@ShellyFan'

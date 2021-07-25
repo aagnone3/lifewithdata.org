@@ -1,0 +1,214 @@
+article_num: '32'
+date: '2021-01-20'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'Production Machine Learning Monitoring: Outliers, Drift, Explainers & Statistical
+    Performance'
+  image: /assets/img/mlutd32app1.png
+  imageCaption:
+    text: The anatomy of production ML
+    href: https://towardsdatascience.com/production-machine-learning-monitoring-outliers-drift-explainers-statistical-performance-d9b1d02ac158
+  excerpt: "In this article we present an end-to-end example showcasing best practices,\
+    \ principles, patterns and techniques around monitoring of machine learning models\
+    \ in production. We will show how to adapt standard microservice monitoring techniques\
+    \ towards deployed machine learning models, as well as more advanced paradigms\
+    \ including concept drift, outlier detection and AI explainability.\nWe will train\
+    \ an image classification machine learning model from scratch, deploy it as a\
+    \ microservice in Kubernetes, and introduce a broad range of advanced monitoring\
+    \ components. The monitoring components will include outlier detectors, drift\
+    \ detectors, AI explainers and metrics servers \u2014 we will cover the underlying\
+    \ architectural patterns used for each, which are developed with scale in mind,\
+    \ and designed to work efficiently across hundreds or thousands of heterogeneous\
+    \ machine learning models.\n"
+  links:
+  - text: Article
+    href: https://towardsdatascience.com/production-machine-learning-monitoring-outliers-drift-explainers-statistical-performance-d9b1d02ac158
+  - text: Video Presentation
+    href: https://youtu.be/QcevzK9ZuDg
+  - text: Jupyter Notebook Code
+    href: https://github.com/axsaucedo/seldon_experiments/blob/master/monitoring-talk/cifar10_example.ipynb
+  - text: Seldon Core
+    href: https://github.com/SeldonIO/seldon-core/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@AxSaucedo'
+- name: app2
+  category: application
+  title: MLCommons Launches and Unites 50+ Global Technology and Academic Leaders
+  image: /assets/img/mlutd32app2.png
+  imageCaption:
+    text: Snippet from the front page of the MLCommons website
+    href: https://mlcommons.org
+  excerpt: 'Today, MLCommons, an open engineering consortium, launches its industry-academic
+    partnership to accelerate machine learning innovation and broaden access to this
+    critical technology for the public good. The non-profit organization initially
+    formed as MLPerf, now boasts a founding board that includes representatives from
+    Alibaba, Facebook AI, Google, Intel, and NVIDIA, as well as Professor Vijay Janapa
+    Reddi of Harvard University; and a broad range of more than 50 founding members.
+    The founding membership includes over 15 startups and small companies that focus
+    on semiconductors, systems, and software from across the globe, as well as researchers
+    from universities such as U.C. Berkeley, Stanford, and the University of Toronto.
+
+    MLCommons will advance development of, and access to, the latest AI and Machine
+    Learning datasets and models, best practices, benchmarks and metrics. An intent
+    is to enable access to machine learning solutions such as computer vision, natural
+    language processing, and speech recognition by as many people, as fast as possible.
+
+    '
+  links:
+  - text: Article
+    href: https://mlcommons.org/en/news/mlcommons-launch
+  - text: MLPerf
+    href: http://www.mlperf.org/
+  - text: People's Speech Dataset
+    href: https://mlcommons.org/en/peoples-speech/
+  - text: MLCube
+    href: https://mlcommons.org/en/mlcube/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@commons_ml'
+- name: app3
+  category: application
+  title: Introducing OpenLineage
+  image: /assets/img/mlutd32app3.png
+  imageCaption:
+    text: ''
+    href: https://datakin.com/introducing-openlineage/
+  excerpt: "For anyone watching the space, the acceleration of the data revolution\
+    \ over the last few years has been very exciting. What started as experimental\
+    \ deployments of \u201Cbig data\u201D projects back in the early days of Hadoop\
+    \ has now morphed into full production, mission-critical deployments of a whole\
+    \ ecosystem of new data tools \u2013 not just in leading edge tech companies but\
+    \ also, increasingly, across every industry.\nHowever, as data technologies conquer\
+    \ the world, the stakes are getting increasingly higher.\nIn particular, it is\
+    \ becoming of the utmost importance that data be always available when needed,\
+    \ up-to-date, and correct. In other words, data needs to be trusted to power mission-critical\
+    \ activities.\nUnfortunately, the growing importance of data technologies is also\
+    \ accompanied by a corresponding increase in overall complexity [...]\nTalking\
+    \ with practitioners who operate these data ecosystems on a daily basis, there\
+    \ is an obvious tension between the growing importance of data technologies, on\
+    \ the one hand, and the tools available to manage them as the mission-critical\
+    \ systems they are becoming, on the other hand \u2013 resulting in many inefficiencies,\
+    \ the inability to provide strong guarantees, and thus a lack of trust in the\
+    \ data being used.\n"
+  links:
+  - text: Article
+    href: https://datakin.com/introducing-openlineage/
+  - text: Datakin
+    href: https://datakin.com/
+  - text: OpenLineage Github
+    href: https://github.com/OpenLineage/OpenLineage
+  - text: Marquez open source metadata project
+    href: http://marquezproject.ai/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DatakinHQ'
+- name: the1
+  category: theory
+  title: Evaluating Agents without Rewards
+  image: /assets/img/mlutd32the1.png
+  imageCaption:
+    text: A flow of analyzing correlations between intrinsic and supervised objectives
+    href: https://danijar.com/project/agenteval/
+  excerpt: 'Reinforcement learning has enabled agents to solve challenging tasks in
+    unknown environments. However, manually crafting reward functions can be time
+    consuming, expensive, and error prone to human error. Competing objectives have
+    been proposed for agents to learn without external supervision, but it has been
+    unclear how well they reflect task rewards or human behavior. To accelerate the
+    development of intrinsic objectives, we retrospectively compute potential objectives
+    on pre-collected datasets of agent behavior, rather than optimizing them online,
+    and compare them by analyzing their correlations. We study input entropy, information
+    gain, and empowerment across seven agents, three Atari games, and the 3D game
+    Minecraft. We find that all three intrinsic objectives correlate more strongly
+    with a human behavior similarity metric than with task reward. Moreover, input
+    entropy and information gain correlate more strongly with human similarity than
+    task reward does, suggesting the use of intrinsic objectives for designing agents
+    that behave similarly to human players.
+
+    '
+  links:
+  - text: Paper
+    href: https://arxiv.org/pdf/2012.11538.pdf
+  - text: Project Site
+    href: https://danijar.com/project/agenteval/
+  - text: MineRL
+    href: https://minerl.io/
+  - text: Github openai/large-scale-curiosity
+    href: https://github.com/openai/large-scale-curiosity
+  - text: Github openai/random-network-distillation
+    href: https://github.com/openai/random-network-distillation
+  - text: Github hill-a/stable-baselines
+    href: https://github.com/hill-a/stable-baselines
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@danijarh'
+- name: the2
+  category: theory
+  title: Entity Linking in 100 Languages
+  image: /assets/img/mlutd32the2.png
+  imageCaption:
+    text: Diagram of the Dual Encoder Model F
+    href: https://arxiv.org/pdf/2011.02690.pdf
+  excerpt: 'We propose a new formulation for multilingual entity linking, where language-specific
+    mentions resolve to a language-agnostic Knowledge Base. We train a dual encoder
+    in this new setting, building on prior work with improved feature representation,
+    negative mining, and an auxiliary entity-pairing task, to obtain a single entity
+    retrieval model that covers 100+ languages and 20 million entities. The model
+    outperforms state-of-the-art results from a far more limited cross-lingual linking
+    task. Rare entities and low-resource languages pose challenges at this large-scale,
+    so we advocate for an increased focus on zero- and few-shot evaluation. To this
+    end, we provide Mewsli-9, a large new multilingual dataset (http://goo.gle/mewsli-dataset)
+    matched to our setting, and show how frequency-based analysis provided key insights
+    for our model and training enhancements.
+
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2011.02690.pdf
+  - text: Dataset on Github
+    href: https://github.com/google-research/google-research/tree/master/dense_representations_for_entity_retrieval/mel
+  credit:
+  - type: Text
+    properties:
+      text: Paper authors
+- name: the3
+  category: theory
+  title: Google Releases its Objectron Dataset
+  image: /assets/img/mlutd32the3.png
+  imageCaption:
+    text: Visualizations of annotations in the Objectron data set
+    href: http://www.google.com/
+  excerpt: "The Objectron dataset is a collection of short, object-centric video clips,\
+    \ which are accompanied by AR session metadata that includes camera poses, sparse\
+    \ point-clouds and characterization of the planar surfaces in the surrounding\
+    \ environment. In each video, the camera moves around the object, capturing it\
+    \ from different angles. The data also contain manually annotated 3D bounding\
+    \ boxes for each object, which describe the object\u2019s position, orientation,\
+    \ and dimensions. The dataset consists of 15K annotated video clips supplemented\
+    \ with over 4M annotated images in the following categories: bikes, books, bottles,\
+    \ cameras, cereal boxes, chairs, cups, laptops, and shoes. In addition, to ensure\
+    \ geo-diversity, our dataset is collected from 10 countries across five continents.\
+    \ Along with the dataset, we are also sharing a 3D object detection solution for\
+    \ four categories of objects \u2014 shoes, chairs, mugs, and cameras. These models\
+    \ are trained using this dataset, and are released in MediaPipe, Google's open\
+    \ source framework for cross-platform customizable ML solutions for live and streaming\
+    \ media.\n"
+  links:
+  - text: Github google-research-datasets/Objectron
+    href: https://github.com/google-research-datasets/Objectron
+  - text: Dataset Format
+    href: https://github.com/google-research-datasets/Objectron#dataset-format
+  - text: Tutorials
+    href: https://github.com/google-research-datasets/Objectron#tutorials
+  - text: MediaPipe
+    href: https://mediapipe.dev/
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@GoogleAI'

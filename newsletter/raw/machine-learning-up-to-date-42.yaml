@@ -1,0 +1,175 @@
+article_num: '42'
+date: '2021-03-31'
+articles:
+- name: app1
+  category: application
+  featured: true
+  title: 'The First No-Code Voice AI Platform for Microcontrollers'
+  header: the-first-no-code-voice-ai-platform-for-microcontrollers
+  image: /assets/img/mlutd42app1.png
+  imageCaption:
+    text: ''
+    href: https://picovoice.ai/blog/no-code-voice-ai-platform-for-microcontrollers/
+  excerpt: '
+    Today we are announcing the public availability of **Picovoice Shepherd**: the first no-code platform for building voice interfaces on microcontrollers. Shepherd enables creating voice experiences similar to Alexa that run on microcontrollers — without writing a single line of code. Picovoice AI runs entirely on-device, without requiring internet connectivity. Edge voice interfaces built with Picovoice are private, reliable, zero-latency, and cost-effective, distinguishing them from cloud-based alternatives.
+
+    Microcontrollers are small, low-power, and cost-effective compute modules. They have already been deployed into billions of devices. The ability to bring voice AI to microcontrollers unlocks numerous use cases that are otherwise infeasible. Alas, the technical-complexities and various specialized skills needed to train and deploy voice AI intro microcontrollers have limited their wide adoption for speech recognition. Today, only a handful of tech giants have access to this technology.
+
+    [... keep reading](https://picovoice.ai/blog/no-code-voice-ai-platform-for-microcontrollers/)
+    '
+  links:
+  - text: Article
+    href: https://picovoice.ai/blog/no-code-voice-ai-platform-for-microcontrollers/
+  - text: PicoVoice Docs
+    href: https://picovoice.ai/docs/picovoice-shepherd/
+  - text: PicoVoice Console
+    href: https://picovoice.ai/docs/quick-start/console-signup
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@AiPicovoice'
+- name: app2
+  category: application
+  title: 'DVC 2.0 Release'
+  header: dvc-2-0-release
+  image: /assets/img/mlutd42app2.png
+  imageCaption:
+    text: ''
+    href: https://dvc.org/blog/dvc-2-0-release
+  excerpt: '
+    We have been working on DVC for almost 4 years. In the previous versions, we have built a great foundation on versioning data, code and ML models that helps make your ML projects reproducible.
+
+    With the 2.0 release, we are going deeper into machine learning and deep learning scenarios such as experiment management, ML model checkpoints and ML metrics logging. These scenarios are widely adopted by ML practitioners and instrumented with custom tools or external frameworks and SaaS services. Our vision is to make the ML experimentation experience distributed (like Git) and independent of external SaaS platforms, and to introduce proper data and model management to ML experiments.
+
+    [... keep reading](https://dvc.org/blog/dvc-2-0-release)
+    '
+  links:
+  - text: Article
+    href: https://dvc.org/blog/dvc-2-0-release
+  - text: DVC Live
+    href: https://github.com/iterative/dvclive
+  - text: Demo Repository
+    href: https://github.com/iterative/cml-runner-base-case
+  - text: CML Github Action
+    href: https://github.com/iterative/setup-cml
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DVCorg'
+- name: app3
+  category: application
+  title: 'Building Riviera: A Declarative Real-Time Feature Engineering Framework'
+  header: building-riviera-a-declarative-real-time-feature-engineering-framework
+  image: /assets/img/mlutd42app3.png
+  imageCaption:
+    text: ''
+    href: https://doordash.engineering/2021/03/04/building-a-declarative-real-time-feature-engineering-framework
+  excerpt: '
+    In a business with fluid dynamics between customers, drivers, and merchants, real-time data helps make crucial decisions which grow our business and delights our customers. Machine learning (ML) models play a big role in improving the experience on our platform, but models can only be as powerful as their underlying features. As a result, building and improving our [feature engineering](https://en.wikipedia.org/wiki/Feature_engineering) framework has been one of our most important initiatives in improving prediction accuracy.
+
+    Given that many predictive models are typically trained with historical data, utilizing real-time features allows us to combine long-term trends with what happened 20 minutes prior, thereby improving prediction accuracy and customer experiences.
+
+    At DoorDash, we are working to increase the velocity and accessibility of the feature engineering life cycle for real-time features. Our strategy involved building a framework that allows data scientists to specify their feature computation logic and production requirements through abstract high-level constructs, so feature engineering is accessible to a broader user base among our ML practitioners.
+
+    Leveraging the [Apache Flink](https://flink.apache.org/) stream processing platform, we built an internal framework, which we call Riviera, that allows users to declaratively specify their feature transformation from source(s) to [features stores](https://docs.featurestore.org/) through a simple configuration.
+
+    [... keep reading](https://doordash.engineering/2021/03/04/building-a-declarative-real-time-feature-engineering-framework/)
+    '
+  links:
+  - text: Article
+    href: https://doordash.engineering/2021/03/04/building-a-declarative-real-time-feature-engineering-framework/
+  - text: Redis
+    href: https://redis.io
+  - text: DoorDash's ML Platform
+    href: https://doordash.engineering/2020/04/23/doordash-ml-platform-the-beginning
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@DoorDashEng'
+- name: the1
+  category: theory
+  title: 'SpeechBrain: A PyTorch Powered Speech Toolkit'
+  header: speechbrain-a-pytorch-powered-speech-toolkit
+  image: /assets/img/mlutd42the1.png
+  imageCaption:
+    text: ''
+    href: https://speechbrain.readthedocs.io/en/latest/index.html
+  excerpt: >
+    SpeechBrain is an **open-source** and **all-in-one** speech toolkit based on PyTorch.
+
+    The goal is to create a **single**, **flexible**, and **user-friendly** toolkit that can be used to easily develop **state-of-the-art speech technologies**, including systems for **speech recognition**, **speaker recognition**, **speech enhancement**, **multi-microphone signal processing** and many others.
+
+    [... keep reading](https://speechbrain.github.io/)
+  links:
+  - text: Article
+    href: https://speechbrain.readthedocs.io/en/latest/index.html
+  - text: SpeechBrain Discourse
+    href: https://speechbrain.discourse.group
+  - text: Tutorials
+    href: https://speechbrain.github.io/tutorial_basics.html
+  - text: Website
+    href: https://speechbrain.github.io
+  - text: Documentation
+    href: https://speechbrain.readthedocs.io/en/latest/index.html
+  - text: HuggingFace
+    href: https://huggingface.co/speechbrain
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@SpeechBrain1'
+- name: the2
+  category: theory
+  title: 'Data Science for Marketing Optimization - Case Studies from Airbnb, Lyft, DoorDash'
+  header: data-science-for-marketing-optimization--case-studies-from-airbnb-lyft-doordash
+  image: /assets/img/mlutd42the2.png
+  imageCaption:
+    text: ''
+    href: https://blogboard.io/blog/data-science-in-marketing-optimization
+  excerpt: >
+    In the first quarter of 2019, Airbnb spent $367 million on sales and marketing. When you think about this from a technical standpoint, two obvious problems come to mind:
+
+    1. How do you scale your marketing processes to be able to spend $300+ million per quarter on ads?
+    2. Once you have systems in place to spend huge ad budgets, what's an optimal way to allocate the money?
+
+    In this article we'll look at several case studies of data science being used to optimize marketing efforts at companies like Lyft, Airbnb, Netflix, Doordash, Wolt, Rovio Entertainment.
+
+    Summarizing articles from official blogs of these companies, we'll get a high level overview of marketing automation and then zoom in on the parts where data science and machine learning play their role.
+
+    [... keep reading](https://blogboard.io/blog/data-science-in-marketing-optimization/)
+  links:
+  - text: Article
+    href: https://blogboard.io/blog/data-science-in-marketing-optimization
+  - text: AirBnB Marketing Systems
+    href: https://medium.com/airbnb-engineering/growing-our-host-community-with-online-marketing-9b2302299324
+  - text: Netflix Marketing Systems
+    href: https://netflixtechblog.com/https-medium-com-netflixtechblog-engineering-to-improve-marketing-effectiveness-part-2-7dd933974f5e
+  - text: DoorDash Marketing Analysis
+    href: https://doordash.engineering/2020/07/31/optimizing-marketing-spend-with-ml
+  credit:
+  - type: Twitter
+    properties:
+      handle: '@drazenz_'
+- name: the3
+  category: theory
+  title: 'Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels'
+  header: re-labeling-imagenet-from-single-to-multi-labels-from-global-to-localized-labels
+  image: /assets/img/mlutd42the3.png
+  imageCaption:
+    text: ''
+    href: https://arxiv.org/pdf/2101.05022.pdf
+  excerpt: '
+    ImageNet has been arguably the most popular image classification benchmark, but it is also the one with a significant level of label noise. Recent studies have shown that many samples contain multiple classes, despite being assumed to be a single-label benchmark. They have thus proposed to turn ImageNet evaluation into a multi-label task, with exhaustive multi-label annotations per image. However, they have not fixed the training set, presumably because of a formidable annotation cost. We argue that the mismatch between single-label annotations and effectively multi-label images is equally, if not more, problematic in the training setup, where random crops are applied. With the single-label annotations, a random crop of an image may contain an entirely different object from the ground truth, introducing noisy or even incorrect supervision during training. We thus re-label the ImageNet training set with multi-labels. We address the annotation cost barrier by letting a strong image classifier, trained on an extra source of data, generate the multi-labels. We utilize the pixel-wise multi-label predictions before the final pooling layer, in order to exploit the additional location-specific supervision signals. Training on the re-labeled samples results in improved model performances across the board. ResNet-50 attains the top-1 classification accuracy of 78.9% on ImageNet with our localized multi-labels, which can be further boosted to 80.2% with the CutMix regularization. We show that the models trained with localized multi-labels also outperforms the baselines on transfer learning to object detection and instance segmentation tasks, and various robustness benchmarks. The re-labeled ImageNet training set, pre-trained weights, and the source code are available [...]
+
+    [... keep reading](https://arxiv.org/pdf/2101.05022.pdf)
+    '
+  links:
+  - text: Article
+    href: https://arxiv.org/pdf/2101.05022.pdf
+  - text: Github naver-ai/relabel_imagenet
+    href: https://github.com/naver-ai/relabel_imagenet
+  - text: Github rwightman/pytorch-image
+    href: https://github.com/rwightman/pytorch-image
+  credit:
+  - type: Text
+    properties:
+      text: Paper Authors

@@ -1,9 +1,9 @@
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import media from 'styled-media-query';
 import Img from 'gatsby-image';
-import LocalizedLink from '../LocalizedLink';
 
-export const PostItemLink = styled(LocalizedLink)`
+export const PostItemLink = styled(Link)`
   text-decoration: none;
   display: block;
   margin-bottom: var(--space);
@@ -19,10 +19,6 @@ export const PostItemWrapper = styled.section`
   width: 100%;
   height: 100%;
   background: var(--bg-light);
-
-  /* .homepage & {
-    flex-direction: row;
-  } */
 `;
 
 // export const PostItemImg = styled.img`

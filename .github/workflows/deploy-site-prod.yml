@@ -7,19 +7,37 @@ jobs:
   build-site:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: obtain node (npm)
+      - name: Obtain node (npm)
         uses: actions/setup-node@v1
+        with:
+          cache: npm
 
-      - name: install dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: build site
+      - name: Cache .cache for Gatsby
+        uses: actions/cache@v1
+        with:
+          path: .cache
+          key: v1-${{ runner.os }}-cache-${{ github.sha }}
+          restore-keys: |
+            v1-${{ runner.os }}-cache-
+
+      - name: Cache public for Gatsby
+        uses: actions/cache@v1
+        with:
+          path: public
+          key: v1-${{ runner.os }}-public-${{ github.sha }}
+          restore-keys: |
+            v1-${{ runner.os }}-public-
+
+      - name: Build site
         run: npm run build
 
-      - name: deploy site
+      - name: Deploy site
         uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

@@ -41,11 +41,3 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_STAGE_SITE_ID }}
         with:
           args: build
-
-      - name: Deploy site
-        uses: netlify/actions/cli@master
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_STAGE_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_STAGE_SITE_ID }}
-        with:
-          args: deploy --dir=public

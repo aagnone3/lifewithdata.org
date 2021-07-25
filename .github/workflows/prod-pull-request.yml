@@ -1,0 +1,50 @@
+name: prod-pull-request
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Obtain node (npm)
+        uses: actions/setup-node@v1
+        with:
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Cache .cache for Gatsby
+        uses: actions/cache@v1
+        with:
+          path: .cache
+          key: v1-${{ runner.os }}-cache-${{ github.sha }}
+          restore-keys: |
+            v1-${{ runner.os }}-cache-
+
+      - name: Cache public for Gatsby
+        uses: actions/cache@v1
+        with:
+          path: public
+          key: v1-${{ runner.os }}-public-${{ github.sha }}
+          restore-keys: |
+            v1-${{ runner.os }}-public-
+
+      - name: Build site
+        uses: netlify/actions/cli@master
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_STAGE_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_STAGE_SITE_ID }}
+        with:
+          args: build
+
+      - name: Waiting for Netlify's preview site
+        uses: jakepartusch/wait-for-netlify-action@v1.2
+        id: wait-for-netlify-preview
+        with:
+          site_name: "lifewithdata"
+          max_timeout: 600

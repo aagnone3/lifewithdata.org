@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "netlify build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "prettier": "prettier --write **/*.{md,css,scss,yaml,yml,ts}",
@@ -64,6 +64,7 @@
     "yup": "^0.32.8"
   },
   "devDependencies": {
+    "@netlify/plugin-gatsby": "^1.0.3",
     "babel-eslint": "^10.0.3",
     "prettier": "^1.18.2"
   }
